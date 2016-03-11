@@ -1,0 +1,13 @@
+Nodux Ecuador NIIF Account CSV to XML
+==================================
+
+This project convert CSV data to XML data (account and tax files)
+
+How to
+======
+
+* Remove content in company_charts folder.
+* Modify CSV files.
+* Execute python account_xml_build.py
+* In company_charts folder, you have new XML about new data from CSV.
+* Copy XML from company_charts to nodux_account_niif_ec module
