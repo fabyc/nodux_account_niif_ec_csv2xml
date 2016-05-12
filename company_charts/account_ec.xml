@@ -1122,6 +1122,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="name">COSTOS Y GASTOS</field>
             <field name="parent" ref="ec_eri"/>
             <field name="sequence" eval="5"/>
+            <field name="income_statement" eval="True"/>
             <field name="display_balance">credit-debit</field>
         </record>
         <record model="account.account.type.template" id="ec_eri_51">
@@ -1344,7 +1345,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="name">GASTOS</field>
             <field name="parent" ref="ec_eri_5"/>
             <field name="sequence" eval="52"/>
-            <field name="income_statement" eval="True"/>
             <field name="display_balance">credit-debit</field>
         </record>
         <record model="account.account.type.template" id="ec_eri_5201">
@@ -1840,7 +1840,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="display_balance">credit-debit</field>
         </record>
         <record model="account.account.type.template" id="ec_eri_63">
-            <field name="name">IMPUESTO A LARENTA CAUSADO</field>
+            <field name="name">IMPUESTO A LA RENTA CAUSADO</field>
             <field name="parent" ref="ec_eri"/>
             <field name="sequence" eval="63"/>
             <field name="display_balance">credit-debit</field>
@@ -1900,7 +1900,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="display_balance">credit-debit</field>
         </record>
         <record model="account.account.type.template" id="ec_eri_76">
-            <field name="name">IMPUESTO A LARENTA CAUSADO</field>
+            <field name="name">IMPUESTO A LA RENTA CAUSADO</field>
             <field name="parent" ref="ec_eri"/>
             <field name="sequence" eval="76"/>
             <field name="display_balance">credit-debit</field>
