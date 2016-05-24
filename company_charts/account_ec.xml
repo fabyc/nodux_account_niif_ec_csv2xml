@@ -3258,17 +3258,17 @@ this repository contains the full copyright notices and license terms. -->
             <field name="code">2010701</field>
             <field name="kind">view</field>
         </record>
-        <record model="account.account.template" id="pc_201070201">
+        <record model="account.account.template" id="pc_201070101">
             <field name="name">IVA VENTAS POR PAGAR</field>
             <field name="parent" ref="pc_2010701"/>
             <field name="code">201070101</field>
             <field name="reconcile" eval="False"/>
-            <field name="kind">payable</field>
+            <field name="kind">view</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202">
+        <record model="account.account.template" id="pc_201070102">
             <field name="name">RETENCIONES IMPUESTO A LA RENTA POR PAGAR</field>
             <field name="parent" ref="pc_2010701"/>
             <field name="code">201070102</field>
@@ -3278,7 +3278,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070203">
+        <record model="account.account.template" id="pc_201070103">
             <field name="name">RETENCIONES IMPUESTO IVA POR PAGAR</field>
             <field name="parent" ref="pc_2010701"/>
             <field name="code">201070103</field>
@@ -6140,90 +6140,90 @@ this repository contains the full copyright notices and license terms. -->
             <field name="deferral" eval="False"/>
             <field name="party_required" eval="False"/>
         </record>
-        <record model="account.account.template" id="pc_20107020101">
+        <record model="account.account.template" id="pc_20107010101">
             <field name="name">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 12%</field>
-            <field name="parent" ref="pc_201070201"/>
-            <field name="code">20107020101</field>
+            <field name="parent" ref="pc_201070101"/>
+            <field name="code">20107010101</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020102">
+        <record model="account.account.template" id="pc_20107010102">
             <field name="name">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12%</field>
-            <field name="parent" ref="pc_201070201"/>
-            <field name="code">20107020102</field>
+            <field name="parent" ref="pc_201070101"/>
+            <field name="code">20107010102</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020103">
+        <record model="account.account.template" id="pc_20107010103">
             <field name="name">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO</field>
-            <field name="parent" ref="pc_201070201"/>
-            <field name="code">20107020103</field>
+            <field name="parent" ref="pc_201070101"/>
+            <field name="code">20107010103</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020104">
+        <record model="account.account.template" id="pc_20107010104">
             <field name="name">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO</field>
-            <field name="parent" ref="pc_201070201"/>
-            <field name="code">20107020104</field>
+            <field name="parent" ref="pc_201070101"/>
+            <field name="code">20107010104</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020105">
+        <record model="account.account.template" id="pc_20107010105">
             <field name="name">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO</field>
-            <field name="parent" ref="pc_201070201"/>
-            <field name="code">20107020105</field>
+            <field name="parent" ref="pc_201070101"/>
+            <field name="code">20107010105</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020106">
+        <record model="account.account.template" id="pc_20107010106">
             <field name="name">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO</field>
-            <field name="parent" ref="pc_201070201"/>
-            <field name="code">20107020106</field>
+            <field name="parent" ref="pc_201070101"/>
+            <field name="code">20107010106</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020107">
+        <record model="account.account.template" id="pc_20107010107">
             <field name="name">EXPORTACIONES DE BIENES</field>
-            <field name="parent" ref="pc_201070201"/>
-            <field name="code">20107020107</field>
+            <field name="parent" ref="pc_201070101"/>
+            <field name="code">20107010107</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020108">
+        <record model="account.account.template" id="pc_20107010108">
             <field name="name">EXPORTACIONES DE SERVICIOS</field>
-            <field name="parent" ref="pc_201070201"/>
-            <field name="code">20107020108</field>
+            <field name="parent" ref="pc_201070101"/>
+            <field name="code">20107010108</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020109">
+        <record model="account.account.template" id="pc_20107010109">
             <field name="name">TRANSFERENCIAS NO OBJETO O EXENTAS DE IVA</field>
-            <field name="parent" ref="pc_201070201"/>
-            <field name="code">20107020109</field>
+            <field name="parent" ref="pc_201070101"/>
+            <field name="code">20107010109</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
@@ -6340,8 +6340,78 @@ this repository contains the full copyright notices and license terms. -->
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_101050201">
+        <record model="account.account.template" id="pc_101050101">
             <field name="name">ANTICIPO RETENCION IVA 10%</field>
+            <field name="parent" ref="pc_1010501"/>
+            <field name="code">101050101</field>
+            <field name="reconcile" eval="True"/>
+            <field name="kind">other</field>
+            <field name="type" ref="ec_esf_1010501"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="True"/>
+        </record>
+        <record model="account.account.template" id="pc_101050102">
+            <field name="name">ANTICIPO RETENCION IVA 20%</field>
+            <field name="parent" ref="pc_1010501"/>
+            <field name="code">101050102</field>
+            <field name="reconcile" eval="True"/>
+            <field name="kind">other</field>
+            <field name="type" ref="ec_esf_1010501"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="True"/>
+        </record>
+        <record model="account.account.template" id="pc_101050103">
+            <field name="name">ANTICIPO RETENCION IVA 30%</field>
+            <field name="parent" ref="pc_1010501"/>
+            <field name="code">101050103</field>
+            <field name="reconcile" eval="True"/>
+            <field name="kind">other</field>
+            <field name="type" ref="ec_esf_1010501"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="True"/>
+        </record>
+        <record model="account.account.template" id="pc_101050104">
+            <field name="name">ANTICIPO RETENCION IVA 70%</field>
+            <field name="parent" ref="pc_1010501"/>
+            <field name="code">101050104</field>
+            <field name="reconcile" eval="True"/>
+            <field name="kind">other</field>
+            <field name="type" ref="ec_esf_1010501"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="True"/>
+        </record>
+        <record model="account.account.template" id="pc_101050105">
+            <field name="name">ANTICIPO RETENCION IVA 100%</field>
+            <field name="parent" ref="pc_1010501"/>
+            <field name="code">101050105</field>
+            <field name="reconcile" eval="True"/>
+            <field name="kind">other</field>
+            <field name="type" ref="ec_esf_1010501"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="True"/>
+        </record>
+        <record model="account.account.template" id="pc_101050201">
+            <field name="name">ANTICIPO RETENCION EN LA FUENTE 1%</field>
+            <field name="parent" ref="pc_1010502"/>
+            <field name="code">101050201</field>
+            <field name="reconcile" eval="True"/>
+            <field name="kind">other</field>
+            <field name="type" ref="ec_esf_1010502"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="True"/>
+        </record>
+        <record model="account.account.template" id="pc_101050202">
+            <field name="name">ANTICIPO RETENCION EN LA FUENTE 2%</field>
+            <field name="parent" ref="pc_1010502"/>
+            <field name="code">101050202</field>
+            <field name="reconcile" eval="True"/>
+            <field name="kind">other</field>
+            <field name="type" ref="ec_esf_1010502"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="True"/>
+        </record>
+        <record model="account.account.template" id="pc_101050203">
+            <field name="name">ANTICIPO RETENCION EN LA FUENTE 8%</field>
             <field name="parent" ref="pc_1010502"/>
             <field name="code">101050203</field>
             <field name="reconcile" eval="True"/>
@@ -6350,8 +6420,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_101050202">
-            <field name="name">ANTICIPO RETENCION IVA 20%</field>
+        <record model="account.account.template" id="pc_101050204">
+            <field name="name">ANTICIPO RETENCION EN LA FUENTE 10%</field>
             <field name="parent" ref="pc_1010502"/>
             <field name="code">101050204</field>
             <field name="reconcile" eval="True"/>
@@ -6360,1270 +6430,1250 @@ this repository contains the full copyright notices and license terms. -->
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_101050203">
-            <field name="name">ANTICIPO RETENCION IVA 30%</field>
-            <field name="parent" ref="pc_1010502"/>
-            <field name="code">101050205</field>
-            <field name="reconcile" eval="True"/>
-            <field name="kind">other</field>
-            <field name="type" ref="ec_esf_1010502"/>
-            <field name="deferral" eval="True"/>
-            <field name="party_required" eval="True"/>
-        </record>
-        <record model="account.account.template" id="pc_101050204">
-            <field name="name">ANTICIPO RETENCION IVA 70%</field>
-            <field name="parent" ref="pc_1010502"/>
-            <field name="code">101050206</field>
-            <field name="reconcile" eval="True"/>
-            <field name="kind">other</field>
-            <field name="type" ref="ec_esf_1010502"/>
-            <field name="deferral" eval="True"/>
-            <field name="party_required" eval="True"/>
-        </record>
-        <record model="account.account.template" id="pc_101050205">
-            <field name="name">ANTICIPO RETENCION IVA 100%</field>
-            <field name="parent" ref="pc_1010502"/>
-            <field name="code">101050207</field>
-            <field name="reconcile" eval="True"/>
-            <field name="kind">other</field>
-            <field name="type" ref="ec_esf_1010502"/>
-            <field name="deferral" eval="True"/>
-            <field name="party_required" eval="True"/>
-        </record>
-        <record model="account.account.template" id="pc_20107020201">
+        <record model="account.account.template" id="pc_20107010201">
             <field name="name">EN RELACIÓN DE DEPENDENCIA QUE SUPERA O NO LA BASE DESGRAVADA - BASE IMPONIBLE</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020201</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010201</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020202">
+        <record model="account.account.template" id="pc_20107010202">
             <field name="name">HONORARIOS PROFESIONALES Y DEMÁS PAGOS POR SERVICIOS RELACIONADOS CON EL TÍTULO PROFESIONAL 10%  (303)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020202</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010202</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020203">
+        <record model="account.account.template" id="pc_20107010203">
             <field name="name">SERVICIOS PREDOMINA EL INTELECTO NO RELACIONADOS CON EL TÍTULO PROFESIONAL 8% (304)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020203</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010203</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020204">
+        <record model="account.account.template" id="pc_20107010204">
             <field name="name">COMISIONES Y DEMÁS PAGOS POR SERVICIOS PREDOMINA INTELECTO NO RELACIONADOS CON EL TÍTULO PROFESIONAL  8%  (304A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020204</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010204</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020205">
+        <record model="account.account.template" id="pc_20107010205">
             <field name="name">PAGOS A NOTARIOS Y REGISTRADORES DE LA PROPIEDAD Y MERCANTIL POR SUS ACTIVIDADES EJERCIDAS COMO TALES  8% (304B)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020205</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010205</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020206">
+        <record model="account.account.template" id="pc_20107010206">
             <field name="name">PAGOS A DEPORTISTAS, ENTRENADORES, ÁRBITROS, MIEMBROS DEL CUERPO TÉCNICO POR SUS ACTIVIDADES EJERCIDAS COMO TALES  8%  (304C)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020206</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010206</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020207">
+        <record model="account.account.template" id="pc_20107010207">
             <field name="name">PAGOS A ARTISTAS POR SUS ACTIVIDADES EJERCIDAS COMO TALES  8%  (304D)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020207</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010207</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020208">
+        <record model="account.account.template" id="pc_20107010208">
             <field name="name">HONORARIOS Y DEMÁS PAGOS POR SERVICIOS DE DOCENCIA  8% (304E)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020208</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010208</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020209">
+        <record model="account.account.template" id="pc_20107010209">
             <field name="name">SERVICIOS PREDOMINA LA MANO DE OBRA  2% (307)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020209</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010209</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020210">
+        <record model="account.account.template" id="pc_20107010210">
             <field name="name">UTILIZACIÓN O APROVECHAMIENTO DE LA IMAGEN O RENOMBRE 10% (308)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020210</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010210</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020211">
+        <record model="account.account.template" id="pc_20107010211">
             <field name="name">SERVICIOS PRESTADOS POR MEDIOS DE COMUNICACIÓN Y AGENCIAS DE PUBLICIDAD 1% (309)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020211</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010211</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020212">
+        <record model="account.account.template" id="pc_20107010212">
             <field name="name">SERVICIO DE TRANSPORTE PRIVADO DE PASAJEROS O TRANSPORTE PÚBLICO O PRIVADO DE CARGA 1% (310)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020212</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010212</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020213">
+        <record model="account.account.template" id="pc_20107010213">
             <field name="name">POR PAGOS A TRAVÉS DE LIQUIDACIÓN DE COMPRA (NIVEL CULTURAL O RUSTICIDAD) 2%  (311)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020213</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010213</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020214">
+        <record model="account.account.template" id="pc_20107010214">
             <field name="name">TRANSFERENCIA DE BIENES MUEBLES DE NATURALEZA CORPORAL 1% (312)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020214</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010214</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020215">
+        <record model="account.account.template" id="pc_20107010215">
             <field name="name">COMPRA DE BIENES DE ORIGEN AGRÍCOLA, AVÍCOLA, PECUARIO, APÍCOLA, CUNÍCULA, BIOACUÁTICO, Y FORESTAL 1% (312A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020215</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010215</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020216">
+        <record model="account.account.template" id="pc_20107010216">
             <field name="name">REGALÍAS POR CONCEPTO DE FRANQUICIAS DE ACUERDO A LEY DE PROPIEDAD INTELECTUAL - PAGO A PERSONAS NATURALES  8%  (314A) </field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020216</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010216</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020217">
+        <record model="account.account.template" id="pc_20107010217">
             <field name="name">CÁNONES, DERECHOS DE AUTOR,  MARCAS, PATENTES Y SIMILARES DE ACUERDO A LEY DE PROPIEDAD INTELECTUAL – PAGO A PERSONAS NATURALES  8%  (314B)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020217</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010217</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020218">
+        <record model="account.account.template" id="pc_20107010218">
             <field name="name">REGALÍAS POR CONCEPTO DE FRANQUICIAS DE ACUERDO A LEY DE PROPIEDAD INTELECTUAL  - PAGO A SOCIEDADES  8%  (314C)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020218</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010218</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020219">
+        <record model="account.account.template" id="pc_20107010219">
             <field name="name">CÁNONES, DERECHOS DE AUTOR,  MARCAS, PATENTES Y SIMILARES DE ACUERDO A LEY DE PROPIEDAD INTELECTUAL – PAGO A SOCIEDADES  8%  (314D)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020219</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010219</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020220">
+        <record model="account.account.template" id="pc_20107010220">
             <field name="name">CUOTAS DE ARRENDAMIENTO MERCANTIL, INCLUSIVE LA DE OPCIÓN DE COMPRA (319)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020220</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010220</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020221">
+        <record model="account.account.template" id="pc_20107010221">
             <field name="name">POR ARRENDAMIENTO BIENES INMUEBLES  8%  (320)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020221</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010221</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020222">
+        <record model="account.account.template" id="pc_20107010222">
             <field name="name">SEGUROS Y REASEGUROS (PRIMAS Y CESIONES) 1% (322)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020222</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010222</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020223">
+        <record model="account.account.template" id="pc_20107010223">
             <field name="name">POR RENDIMIENTOS FINANCIEROS PAGADOS A NATURALES Y SOCIEDADES  (NO A IFIS) 2%   (323)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020223</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010223</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020224">
+        <record model="account.account.template" id="pc_20107010224">
             <field name="name">POR RF: DEPÓSITOS CTA. CORRIENTE 2%  (323A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020224</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010224</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020225">
+        <record model="account.account.template" id="pc_20107010225">
             <field name="name">POR RF:  DEPÓSITOS CTA. AHORROS SOCIEDADES 2%  (323B1)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020225</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010225</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020226">
+        <record model="account.account.template" id="pc_20107010226">
             <field name="name">POR RF: DEPÓSITO A PLAZO FIJO  GRAVADOS 2%  (323E)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020226</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010226</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020227">
+        <record model="account.account.template" id="pc_20107010227">
             <field name="name">POR RF: DEPÓSITO A PLAZO FIJO EXENTOS (323E2)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020227</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010227</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020228">
+        <record model="account.account.template" id="pc_20107010228">
             <field name="name">POR RENDIMIENTOS FINANCIEROS: OPERACIONES DE REPORTO - REPOS 2%  (323F)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020228</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010228</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020229">
+        <record model="account.account.template" id="pc_20107010229">
             <field name="name">POR RF: INVERSIONES (CAPTACIONES) RENDIMIENTOS DISTINTOS DE AQUELLOS PAGADOS A IFIS 2%  (323G)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020229</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010229</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020230">
+        <record model="account.account.template" id="pc_20107010230">
             <field name="name">POR RF: OBLIGACIONES 2%  (323H)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020230</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010230</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020231">
+        <record model="account.account.template" id="pc_20107010231">
             <field name="name">POR RF: BONOS CONVERTIBLE EN ACCIONES 2%  (323I)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020231</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010231</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020232">
+        <record model="account.account.template" id="pc_20107010232">
             <field name="name">POR RF: INVERSIONES EN TÍTULOS VALORES EN RENTA FIJA GRAVADOS 2%   (323M)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020232</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010232</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020233">
+        <record model="account.account.template" id="pc_20107010233">
             <field name="name">POR RF: INVERSIONES EN TÍTULOS VALORES EN RENTA FIJA EXENTOS (323N)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020233</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010233</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020234">
+        <record model="account.account.template" id="pc_20107010234">
             <field name="name">POR RF: INTERESES PAGADOS A BANCOS Y OTRAS ENTIDADES SOMETIDAS AL CONTROL DE LA SUPERINTENDENCIA DE BANCOS Y DE LA ECONOMÍA POPULAR Y SOLIDARIA (323O)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020234</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010234</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020235">
+        <record model="account.account.template" id="pc_20107010235">
             <field name="name">POR RF: INTERESES PAGADOS POR ENTIDADES DEL SECTOR PÚBLICO A FAVOR DE SUJETOS PASIVOS 2%  (323P)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020235</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010235</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020236">
+        <record model="account.account.template" id="pc_20107010236">
             <field name="name">POR RF: OTROS INTERESES Y RENDIMIENTOS FINANCIEROS GRAVADOS 2%  (323Q)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020236</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010236</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020237">
+        <record model="account.account.template" id="pc_20107010237">
             <field name="name">POR RF: OTROS INTERESES Y RENDIMIENTOS FINANCIEROS EXENTOS (323R)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020237</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010237</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020238">
+        <record model="account.account.template" id="pc_20107010238">
             <field name="name">POR RF: INTERESES EN OPERACIONES DE CRÉDITO ENTRE INSTITUCIONES DEL SISTEMA FINANCIERO Y ENTIDADES ECONOMÍA POPULAR Y SOLIDARIA.1%  (324A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020238</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010238</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020239">
+        <record model="account.account.template" id="pc_20107010239">
             <field name="name">POR RF: POR INVERSIONES ENTRE INSTITUCIONES DEL SISTEMA FINANCIERO Y ENTIDADES ECONOMÍA POPULAR Y SOLIDARIA.1%   (324B)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020239</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010239</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020240">
+        <record model="account.account.template" id="pc_20107010240">
             <field name="name">ANTICIPO DIVIDENDOS  (325)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020240</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010240</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020241">
+        <record model="account.account.template" id="pc_20107010241">
             <field name="name">DIVIDENDOS ANTICIPADOS PRÉSTAMOS ACCIONISTAS, BENEFICIARIOS O PARTÌCIPES  (325A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020241</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010241</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020242">
+        <record model="account.account.template" id="pc_20107010242">
             <field name="name">DIVIDENDOS DISTRIBUIDOS QUE CORRESPONDAN AL IMPUESTO A LA RENTA ÚNICO  ESTABLECIDO EN EL ART. 27 DE LA LRTI  HASTA EL 100% (326)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020242</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010242</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020243">
+        <record model="account.account.template" id="pc_20107010243">
             <field name="name">DIVIDENDOS DISTRIBUIDOS A PERSONAS NATURALES RESIDENTES 1% AL 13% (327)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020243</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010243</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020244">
+        <record model="account.account.template" id="pc_20107010244">
             <field name="name">DIVIDENDOS DISTRIBUIDOS A SOCIEDADES RESIDENTES HASTA EL 100%  (328)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020244</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010244</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020245">
+        <record model="account.account.template" id="pc_20107010245">
             <field name="name">DIVIDENDOS DISTRIBUIDOS A FIDEICOMISOS RESIDENTES  HASTA EL 100%(329)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020245</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010245</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020246">
+        <record model="account.account.template" id="pc_20107010246">
             <field name="name">DIVIDENDOS GRAVADOS DISTRIBUIDOS EN ACCIONES (REINVERSIÓN DE UTILIDADES SIN DERECHO A REDUCCIÓN TARIFA IR) DE ACUERDO A LA TABLA DE RETENCIONES DEL ART. 15 RALRTI (330)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020246</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010246</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020247">
+        <record model="account.account.template" id="pc_20107010247">
             <field name="name">DIVIDENDOS EXENTOS DISTRIBUIDOS EN ACCIONES (REINVERSIÓN DE UTILIDADES CON DERECHO A REDUCCIÓN TARIFA IR)   0% (331)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020247</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010247</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020248">
+        <record model="account.account.template" id="pc_20107010248">
             <field name="name">OTRAS COMPRAS DE BIENES Y SERVICIOS NO SUJETAS A RETENCIÓN 0% (332)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020248</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010248</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020249">
+        <record model="account.account.template" id="pc_20107010249">
             <field name="name">POR LA ENAJENACIÓN OCASIONAL DE ACCIONES O PARTICIPACIONES Y TÍTULOS VALORES 0% (332A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020249</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010249</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020250">
+        <record model="account.account.template" id="pc_20107010250">
             <field name="name">COMPRA DE BIENES INMUEBLES 0% (332B)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020250</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010250</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020251">
+        <record model="account.account.template" id="pc_20107010251">
             <field name="name">TRANSPORTE PÚBLICO DE PASAJEROS 0% (332C)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020251</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010251</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020252">
+        <record model="account.account.template" id="pc_20107010252">
             <field name="name">PAGOS EN EL PAÍS POR TRANSPORTE DE PASAJEROS O TRANSPORTE INTERNACIONAL DE CARGA, A COMPAÑÍAS NACIONALES O EXTRANJERAS DE AVIACIÓN O MARÍTIMAS 0% (332D)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020252</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010252</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020253">
+        <record model="account.account.template" id="pc_20107010253">
             <field name="name">VALORES ENTREGADOS POR LAS COOPERATIVAS DE TRANSPORTE A SUS SOCIOS 0% (332E)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020253</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010253</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020254">
+        <record model="account.account.template" id="pc_20107010254">
             <field name="name">COMPRAVENTA DE DIVISAS DISTINTAS AL DÓLAR DE LOS ESTADOS UNIDOS DE AMÉRICA0% (332F)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020254</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010254</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020255">
+        <record model="account.account.template" id="pc_20107010255">
             <field name="name">PAGOS CON TARJETA DE CRÉDITO (NO APLICA RETENCIÓN) (332G)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020255</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010255</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020256">
+        <record model="account.account.template" id="pc_20107010256">
             <field name="name">PAGO AL EXTERIOR TARJETA DE CRÉDITO REPORTADA POR LA EMISORA DE TARJETA DE CRÉDITO, SOLO RECAP 0% (332H)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020256</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010256</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020257">
+        <record model="account.account.template" id="pc_20107010257">
             <field name="name">ENAJENACIÓN DE DERECHOS REPRESENTATIVOS DE CAPITAL Y OTROS DERECHOS COTIZADOS EN BOLSA ECUATORIANA 0,20% (332)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020257</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010257</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020258">
+        <record model="account.account.template" id="pc_20107010258">
             <field name="name">ENAJENACIÓN DE DERECHOS REPRESENTATIVOS DE CAPITAL Y OTROS DERECHOS NO COTIZADOS EN BOLSA ECUATORIANA 1% (334)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020258</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010258</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020259">
+        <record model="account.account.template" id="pc_20107010259">
             <field name="name">POR LOTERÍAS, RIFAS, APUESTAS Y SIMILARES 15% (335)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020259</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010259</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020260">
+        <record model="account.account.template" id="pc_20107010260">
             <field name="name">POR VENTA DE COMBUSTIBLES A COMERCIALIZADORAS  2/MIL (336)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020260</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010260</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020261">
+        <record model="account.account.template" id="pc_20107010261">
             <field name="name">POR VENTA DE COMBUSTIBLES A DISTRIBUIDORES 3/MIL(337)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020261</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010261</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020262">
+        <record model="account.account.template" id="pc_20107010262">
             <field name="name">COMPRA LOCAL DE BANANO A PRODUCTOR 1% -2% (338)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020262</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010262</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020263">
+        <record model="account.account.template" id="pc_20107010263">
             <field name="name">LIQUIDACIÓN IMPUESTO ÚNICO A LA VENTA LOCAL DE BANANO DE PRODUCCIÓN PROPIA HASTA EL 100% (339)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020263</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010263</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020264">
+        <record model="account.account.template" id="pc_20107010264">
             <field name="name">IMPUESTO ÚNICO A LA EXPORTACIÓN DE BANANO DE PRODUCCIÓN PROPIA - COMPONENTE 1      1% -2% (340) </field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020264</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010264</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020265">
+        <record model="account.account.template" id="pc_20107010265">
             <field name="name">IMPUESTO ÚNICO A LA EXPORTACIÓN DE BANANO DE PRODUCCIÓN PROPIA - COMPONENTE 2        1,25% - 2% (341)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020265</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010265</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020266">
+        <record model="account.account.template" id="pc_20107010266">
             <field name="name">IMPUESTO ÚNICO A LA EXPORTACIÓN DE BANANO PRODUCIDO POR TERCEROS 0,5%-2%  (342)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020266</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010266</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020267">
+        <record model="account.account.template" id="pc_20107010267">
             <field name="name">POR ENERGÍA ELÉCTRICA  1% (343A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020267</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010267</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020268">
+        <record model="account.account.template" id="pc_20107010268">
             <field name="name">POR ACTIVIDADES DE CONSTRUCCIÓN DE OBRA MATERIAL INMUEBLE, URBANIZACIÓN, LOTIZACIÓN O ACTIVIDADES SIMILARES   1% (343B)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020268</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010268</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020269">
+        <record model="account.account.template" id="pc_20107010269">
             <field name="name">OTRAS RETENCIONES APLICABLES EL 2% (344)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020269</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010269</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020270">
+        <record model="account.account.template" id="pc_20107010270">
             <field name="name">PAGO LOCAL TARJETA DE CRÉDITO REPORTADA POR LA EMISORA DE TARJETA DE CRÉDITO, SOLO RECAP (344A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020270</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010270</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020271">
+        <record model="account.account.template" id="pc_20107010271">
+            <field name="name">OTRAS RETENCIONES APLICABLES EL 8% (345)</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010271</field>
+            <field name="reconcile" eval="True"/>
+            <field name="kind">other</field>
+            <field name="type" ref="ec_esf_2010701"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="True"/>
+        </record>
+        <record model="account.account.template" id="pc_20107010272">
             <field name="name">GANANCIAS DE CAPITAL    (ENTRE 0 Y 10)    (346A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020271</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010272</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020272">
+        <record model="account.account.template" id="pc_20107010273">
             <field name="name">PAGO AL EXTERIOR - RENTAS INMOBILIARIAS  (ENTRE 0 Y 22 * ) (500)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020272</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010273</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020273">
+        <record model="account.account.template" id="pc_20107010274">
             <field name="name">PAGO AL EXTERIOR - BENEFICIOS EMPRESARIALES (ENTRE 0 Y 22 * )  (501)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020273</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010274</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020274">
+        <record model="account.account.template" id="pc_20107010275">
             <field name="name">PAGO AL EXTERIOR - SERVICIOS EMPRESARIALES  (ENTRE 0 Y 22 * )  (502)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020274</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010275</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020275">
+        <record model="account.account.template" id="pc_20107010276">
             <field name="name">PAGO AL EXTERIOR - NAVEGACIÓN MARÍTIMA Y/O AÉREA  (ENTRE 0 Y 22 * )  (503)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020275</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010276</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020276">
+        <record model="account.account.template" id="pc_20107010277">
             <field name="name">PAGO AL EXTERIOR- DIVIDENDOS DISTRIBUIDOS A PERSONAS NATURALES 0% (504)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020276</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010277</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020277">
+        <record model="account.account.template" id="pc_20107010278">
             <field name="name">PAGO AL EXTERIOR - DIVIDENDOS A SOCIEDADES  HASTA EL 100% (504A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020277</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010278</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020278">
+        <record model="account.account.template" id="pc_20107010279">
             <field name="name">PAGO AL EXTERIOR - ANTICIPO DIVIDENDOS  22% (504B)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020278</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010279</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020279">
+        <record model="account.account.template" id="pc_20107010280">
             <field name="name">PAGO AL EXTERIOR - DIVIDENDOS ANTICIPADOS PRÉSTAMOS ACCIONISTAS, BENEFICIARIOS O PARTÌCIPES  HASTA EL 100% (504C)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020279</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010280</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020280">
+        <record model="account.account.template" id="pc_20107010281">
             <field name="name">PAGO AL EXTERIOR - DIVIDENDOS A FIDEICOMISOS HASTA EL 100% (504D)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020280</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010281</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020281">
+        <record model="account.account.template" id="pc_20107010282">
             <field name="name">PAGO AL EXTERIOR- DIVIDENDOS DISTRIBUIDOS A PERSONAS NATURALES (PARAÍSOS FISCALES) 0% (504E)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020281</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010282</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020282">
+        <record model="account.account.template" id="pc_20107010283">
             <field name="name">PAGO AL EXTERIOR - DIVIDENDOS A SOCIEDADES  (PARAÍSOS FISCALES)  13%(504F)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020282</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010283</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020283">
+        <record model="account.account.template" id="pc_20107010284">
             <field name="name">PAGO AL EXTERIOR - ANTICIPO DIVIDENDOS  (PARAÍSOS FISCALES) 25% (504G)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020283</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010284</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020284">
+        <record model="account.account.template" id="pc_20107010285">
             <field name="name">PAGO AL EXTERIOR - DIVIDENDOS A FIDEICOMISOS  (PARAÍSOS FISCALES)13%  (504H)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020284</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010285</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020285">
+        <record model="account.account.template" id="pc_20107010286">
             <field name="name">PAGO AL EXTERIOR - RENDIMIENTOS FINANCIEROS (ENTRE 0 Y 22 * ) (505)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020285</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010286</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020286">
+        <record model="account.account.template" id="pc_20107010287">
             <field name="name">PAGO AL EXTERIOR – INTERESES DE CRÉDITOS DE INSTITUCIONES FINANCIERAS DEL EXTERIOR (ENTRE 0 Y 22 * )  (505A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020286</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010287</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020287">
+        <record model="account.account.template" id="pc_20107010288">
             <field name="name">PAGO AL EXTERIOR – INTERESES DE CRÉDITOS DE GOBIERNO A GOBIERNO (ENTRE 0 Y 22 * ) (505B)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020287</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010288</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020288">
+        <record model="account.account.template" id="pc_20107010289">
             <field name="name">PAGO AL EXTERIOR – INTERESES DE CRÉDITOS DE ORGANISMOS MULTILATERALES (ENTRE 0 Y 22 * )  (505C)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020288</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010289</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020289">
+        <record model="account.account.template" id="pc_20107010290">
             <field name="name">PAGO AL EXTERIOR - INTERESES POR FINANCIAMIENTO DE PROVEEDORES EXTERNOS (ENTRE 0 Y 22 * )  (505D)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020289</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010290</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020290">
+        <record model="account.account.template" id="pc_20107010291">
             <field name="name">PAGO AL EXTERIOR - INTERESES DE OTROS CRÉDITOS EXTERNOS (ENTRE 0 Y 22 * )  (505E)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020290</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010291</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020291">
+        <record model="account.account.template" id="pc_20107010292">
             <field name="name">PAGO AL EXTERIOR - OTROS INTERESES Y RENDIMIENTOS FINANCIEROS (ENTRE 0 Y 22 * ) (505F)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020291</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010292</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020292">
+        <record model="account.account.template" id="pc_20107010293">
             <field name="name">PAGO AL EXTERIOR - CÁNONES, DERECHOS DE AUTOR,  MARCAS, PATENTES Y SIMILARES (ENTRE 0 Y 22 * )  (509)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020292</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010293</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020293">
+        <record model="account.account.template" id="pc_20107010294">
             <field name="name">PAGO AL EXTERIOR - REGALÍAS POR CONCEPTO DE FRANQUICIAS (ENTRE 0 Y 22 * )  (509A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020293</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010294</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020294">
+        <record model="account.account.template" id="pc_20107010295">
             <field name="name">PAGO AL EXTERIOR - GANANCIAS DE CAPITAL (ENTRE 0 Y 22 * )  (510)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020294</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010295</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020295">
+        <record model="account.account.template" id="pc_20107010296">
             <field name="name">PAGO AL EXTERIOR - SERVICIOS PROFESIONALES INDEPENDIENTES (ENTRE 0 Y 22 * )   (511)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020295</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010296</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020296">
+        <record model="account.account.template" id="pc_20107010297">
             <field name="name">PAGO AL EXTERIOR - SERVICIOS PROFESIONALES DEPENDIENTES (ENTRE 0 Y 22 * )  (512)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020296</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010297</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020297">
+        <record model="account.account.template" id="pc_20107010298">
             <field name="name">PAGO AL EXTERIOR - ARTISTAS (ENTRE 0 Y 22 * )  (513)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020297</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010298</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020298">
+        <record model="account.account.template" id="pc_20107010299">
             <field name="name">PAGO AL EXTERIOR - DEPORTISTAS (ENTRE 0 Y 22 * ) (513A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020298</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">20107010299</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_20107020299">
+        <record model="account.account.template" id="pc_201070102100">
             <field name="name">PAGO AL EXTERIOR - PARTICIPACIÓN DE CONSEJEROS (ENTRE 0 Y 22 * )  (514)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">20107020299</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102100</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202100">
+        <record model="account.account.template" id="pc_201070102101">
             <field name="name">PAGO AL EXTERIOR - ENTRETENIMIENTO PÚBLICO  (ENTRE 0 Y 22 * ) (515)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202100</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102101</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202101">
+        <record model="account.account.template" id="pc_201070102102">
             <field name="name">PAGO AL EXTERIOR - PENSIONES (ENTRE 0 Y 22 * )  (516)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202101</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102102</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202102">
+        <record model="account.account.template" id="pc_201070102103">
             <field name="name">PAGO AL EXTERIOR - REEMBOLSO DE GASTOS (ENTRE 0 Y 22 * )   (517)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202102</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102103</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202103">
+        <record model="account.account.template" id="pc_201070102104">
             <field name="name">PAGO AL EXTERIOR - FUNCIONES PÚBLICAS (ENTRE 0 Y 22 * )   (518)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202103</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102104</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202104">
+        <record model="account.account.template" id="pc_201070102105">
             <field name="name">PAGO AL EXTERIOR - ESTUDIANTES (ENTRE 0 Y 22 * )   (519)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202104</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102105</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202105">
+        <record model="account.account.template" id="pc_201070102106">
             <field name="name">PAGO AL EXTERIOR - OTROS CONCEPTOS DE INGRESOS GRAVADOS  (ENTRE 0 Y 22 * )  (520)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202105</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102106</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202106">
+        <record model="account.account.template" id="pc_201070102107">
             <field name="name">PAGO AL EXTERIOR - PAGO A PROVEEDORES DE SERVICIOS HOTELEROS Y TURÍSTICOS EN EL EXTERIOR (ENTRE 0 Y 22 * )  (520A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202106</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102107</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202107">
+        <record model="account.account.template" id="pc_201070102108">
             <field name="name">PAGO AL EXTERIOR - ARRENDAMIENTOS MERCANTIL INTERNACIONAL (ENTRE 0 Y 22 * )  (520B)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202107</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102108</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202108">
+        <record model="account.account.template" id="pc_201070102109">
             <field name="name">PAGO AL EXTERIOR - COMISIONES POR EXPORTACIONES Y POR PROMOCIÓN DE TURISMO RECEPTIVO  (ENTRE 0 Y 22 * )  (520D)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202108</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102109</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202109">
+        <record model="account.account.template" id="pc_201070102110">
             <field name="name">PAGO AL EXTERIOR - POR LAS EMPRESAS DE TRANSPORTE MARÍTIMO O AÉREO Y POR EMPRESAS PESQUERAS DE ALTA MAR, POR SU ACTIVIDAD. (ENTRE 0 Y 22 * )  (520E)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202109</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102110</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202110">
+        <record model="account.account.template" id="pc_201070102111">
             <field name="name">PAGO AL EXTERIOR - POR LAS AGENCIAS INTERNACIONALES DE PRENSA (ENTRE 0 Y 22 * )  (520F)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202110</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102111</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202111">
+        <record model="account.account.template" id="pc_201070102112">
             <field name="name">PAGO AL EXTERIOR - CONTRATOS DE FLETAMENTO DE NAVES PARA EMPRESAS DE TRANSPORTE AÉREO O MARÍTIMO INTERNACIONAL  (ENTRE 0 Y 22 * )  (520G)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202111</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102112</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202112">
+        <record model="account.account.template" id="pc_201070102113">
             <field name="name">PAGO AL EXTERIOR - ENAJENACIÓN DE DERECHOS REPRESENTATIVOS DE CAPITAL Y OTROS DERECHOS  5%(521)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202112</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102113</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202113">
+        <record model="account.account.template" id="pc_201070102114">
             <field name="name">PAGO AL EXTERIOR - SERVICIOS TÉCNICOS, ADMINISTRATIVOS O DE CONSULTORÍA Y REGALÍAS CON CONVENIO DE DOBLE TRIBUTACIÓN    HASTA EL 100% (522A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202113</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102114</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202114">
+        <record model="account.account.template" id="pc_201070102115">
             <field name="name">PAGO AL EXTERIOR - SERVICIOS TÉCNICOS, ADMINISTRATIVOS O DE CONSULTORÍA Y REGALÍAS SIN CONVENIO DE DOBLE TRIBUTACIÓN  22% (522B)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202114</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102115</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202115">
+        <record model="account.account.template" id="pc_201070102116">
             <field name="name">PAGO AL EXTERIOR - SERVICIOS TÉCNICOS, ADMINISTRATIVOS O DE CONSULTORÍA Y REGALÍAS EN PARAÍSOS FISCALES  35% (522C)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202115</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102116</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202116">
+        <record model="account.account.template" id="pc_201070102117">
             <field name="name">PAGO AL EXTERIOR - SEGUROS Y REASEGUROS (PRIMAS Y CESIONES)  CON CONVENIO DE DOBLE TRIBUTACIÓN HASTA EL 100% (523A)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202116</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102117</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202117">
+        <record model="account.account.template" id="pc_201070102118">
             <field name="name">PAGO AL EXTERIOR - SEGUROS Y REASEGUROS (PRIMAS Y CESIONES) SIN CONVENIO DE DOBLE TRIBUTACIÓN 22% (523B)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202117</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102118</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202118">
+        <record model="account.account.template" id="pc_201070102119">
             <field name="name">PAGO AL EXTERIOR - SEGUROS Y REASEGUROS (PRIMAS Y CESIONES) EN PARAÍSOS FISCALES 35% (523C)</field>
-            <field name="parent" ref="pc_201070202"/>
-            <field name="code">201070202118</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102119</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202119">
+        <record model="account.account.template" id="pc_201070102120">
             <field name="name">PAGO AL EXTERIOR - OTROS PAGOS AL EXTERIOR NO SUJETOS A RETENCIÓN 0% (524)</field>
-            <field name="parent" ref="pc_201070203"/>
-            <field name="code">201070202119</field>
+            <field name="parent" ref="pc_201070102"/>
+            <field name="code">201070102120</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202120">
+        <record model="account.account.template" id="pc_20107010301">
             <field name="name">RETENCION IVA POR PAGAR 10%</field>
-            <field name="parent" ref="pc_201070203"/>
-            <field name="code">201070202120</field>
+            <field name="parent" ref="pc_201070103"/>
+            <field name="code">20107010301</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202121">
+        <record model="account.account.template" id="pc_20107010302">
             <field name="name">RETENCION IVA POR PAGAR 20%</field>
-            <field name="parent" ref="pc_201070203"/>
-            <field name="code">201070202121</field>
+            <field name="parent" ref="pc_201070103"/>
+            <field name="code">20107010302</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202122">
+        <record model="account.account.template" id="pc_20107010303">
             <field name="name">RETENCION IVA POR PAGAR 30%</field>
-            <field name="parent" ref="pc_201070203"/>
-            <field name="code">201070202122</field>
+            <field name="parent" ref="pc_201070103"/>
+            <field name="code">20107010303</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202123">
+        <record model="account.account.template" id="pc_20107010304">
             <field name="name">RETENCION IVA POR PAGAR 70%</field>
-            <field name="parent" ref="pc_201070203"/>
-            <field name="code">201070202123</field>
+            <field name="parent" ref="pc_201070103"/>
+            <field name="code">20107010304</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>
             <field name="deferral" eval="True"/>
             <field name="party_required" eval="True"/>
         </record>
-        <record model="account.account.template" id="pc_201070202124">
+        <record model="account.account.template" id="pc_20107010305">
             <field name="name">RETENCION IVA POR PAGAR 100%</field>
-            <field name="parent" ref="pc_201070203"/>
-            <field name="code">201070202124</field>
+            <field name="parent" ref="pc_201070103"/>
+            <field name="code">20107010305</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_2010701"/>

@@ -1172,15 +1172,15 @@ this repository contains the full copyright notices and license terms. -->
             <field name="code">482</field>
             <field name="account" ref="pc"/>
         </record>
-        <record model="account.tax.template" id="tax__1040101">
+        <record model="account.tax.template" id="tax_1040101">
             <field name="name">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 12%</field>
             <field name="description">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 12%</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.12')"/>
-            <field name="invoice_account" ref="pc_20107020101"/>
-            <field name="credit_note_account" ref="pc_20107020101"/>
+            <field name="invoice_account" ref="pc_20107010101"/>
+            <field name="credit_note_account" ref="pc_20107010101"/>
             <field name="invoice_base_code" ref="taxcode_1040101"/>
             <field name="invoice_tax_code" ref="taxcode_1040119"/>
             <field name="credit_note_base_code" ref="taxcode_1040101"/>
@@ -1190,15 +1190,15 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax__1040102">
+        <record model="account.tax.template" id="tax_1040102">
             <field name="name">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12%</field>
             <field name="description">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12%</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.12')"/>
-            <field name="invoice_account" ref="pc_20107020102"/>
-            <field name="credit_note_account" ref="pc_20107020102"/>
+            <field name="invoice_account" ref="pc_20107010102"/>
+            <field name="credit_note_account" ref="pc_20107010102"/>
             <field name="invoice_base_code" ref="taxcode_1040102"/>
             <field name="invoice_tax_code" ref="taxcode_1040120"/>
             <field name="credit_note_base_code" ref="taxcode_1040102"/>
@@ -1208,15 +1208,15 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax__1040103">
+        <record model="account.tax.template" id="tax_1040103">
             <field name="name">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO</field>
             <field name="description">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020103"/>
-            <field name="credit_note_account" ref="pc_20107020103"/>
+            <field name="invoice_account" ref="pc_20107010103"/>
+            <field name="credit_note_account" ref="pc_20107010103"/>
             <field name="invoice_base_code" ref="taxcode_1040103"/>
             <field name="invoice_tax_code" ref="taxcode_1040121"/>
             <field name="credit_note_base_code" ref="taxcode_1040103"/>
@@ -1226,15 +1226,15 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax__1040104">
+        <record model="account.tax.template" id="tax_1040104">
             <field name="name">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO</field>
             <field name="description">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020104"/>
-            <field name="credit_note_account" ref="pc_20107020104"/>
+            <field name="invoice_account" ref="pc_20107010104"/>
+            <field name="credit_note_account" ref="pc_20107010104"/>
             <field name="invoice_base_code" ref="taxcode_1040104"/>
             <field name="invoice_tax_code" ref="taxcode_1040121"/>
             <field name="credit_note_base_code" ref="taxcode_1040104"/>
@@ -1244,15 +1244,15 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax__1040105">
+        <record model="account.tax.template" id="tax_1040105">
             <field name="name">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO</field>
             <field name="description">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020105"/>
-            <field name="credit_note_account" ref="pc_20107020105"/>
+            <field name="invoice_account" ref="pc_20107010105"/>
+            <field name="credit_note_account" ref="pc_20107010105"/>
             <field name="invoice_base_code" ref="taxcode_1040105"/>
             <field name="invoice_tax_code" ref="taxcode_1040121"/>
             <field name="credit_note_base_code" ref="taxcode_1040105"/>
@@ -1262,15 +1262,15 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax__1040106">
+        <record model="account.tax.template" id="tax_1040106">
             <field name="name">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO</field>
             <field name="description">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020106"/>
-            <field name="credit_note_account" ref="pc_20107020106"/>
+            <field name="invoice_account" ref="pc_20107010106"/>
+            <field name="credit_note_account" ref="pc_20107010106"/>
             <field name="invoice_base_code" ref="taxcode_1040106"/>
             <field name="invoice_tax_code" ref="taxcode_1040121"/>
             <field name="credit_note_base_code" ref="taxcode_1040106"/>
@@ -1280,14 +1280,14 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax__1040107">
+        <record model="account.tax.template" id="tax_1040107">
             <field name="name">IVA EXPORTACIONES DE BIENES</field>
             <field name="description">IVA EXPORTACIONES DE BIENES</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">none</field>
-            <field name="invoice_account" ref="pc_20107020107"/>
-            <field name="credit_note_account" ref="pc_20107020107"/>
+            <field name="invoice_account" ref="pc_20107010107"/>
+            <field name="credit_note_account" ref="pc_20107010107"/>
             <field name="invoice_base_code" ref="taxcode_1040107"/>
             <field name="invoice_tax_code" ref="taxcode_1040121"/>
             <field name="credit_note_base_code" ref="taxcode_1040107"/>
@@ -1297,14 +1297,14 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax__1040108">
+        <record model="account.tax.template" id="tax_1040108">
             <field name="name">IVA EXPORTACIONES DE SERVICIOS</field>
             <field name="description">IVA EXPORTACIONES DE SERVICIOS</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">none</field>
-            <field name="invoice_account" ref="pc_20107020108"/>
-            <field name="credit_note_account" ref="pc_20107020108"/>
+            <field name="invoice_account" ref="pc_20107010108"/>
+            <field name="credit_note_account" ref="pc_20107010108"/>
             <field name="invoice_base_code" ref="taxcode_1040108"/>
             <field name="invoice_tax_code" ref="taxcode_1040121"/>
             <field name="credit_note_base_code" ref="taxcode_1040108"/>
@@ -1314,14 +1314,14 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax__1040109">
+        <record model="account.tax.template" id="tax_1040109">
             <field name="name">TRANSFERENCIAS NO OBJETO O EXENTAS DE IVA</field>
             <field name="description">TRANSFERENCIAS NO OBJETO O EXENTAS DE IVA</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">none</field>
-            <field name="invoice_account" ref="pc_20107020109"/>
-            <field name="credit_note_account" ref="pc_20107020109"/>
+            <field name="invoice_account" ref="pc_20107010109"/>
+            <field name="credit_note_account" ref="pc_20107010109"/>
             <field name="invoice_base_code" ref="taxcode_1040109"/>
             <field name="invoice_tax_code" ref="taxcode_1040121"/>
             <field name="credit_note_base_code" ref="taxcode_1040109"/>
@@ -1529,18 +1529,108 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax_104022901">
+        <record model="account.tax.template" id="tax_1040212">
             <field name="name">ANTICIPO RETENCION IVA 10%</field>
             <field name="description">ANTICIPO RETENCION IVA 10%</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.1')"/>
+            <field name="invoice_account" ref="pc_101050101"/>
+            <field name="credit_note_account" ref="pc_101050101"/>
+            <field name="invoice_base_code" ref="taxcode_1040119"/>
+            <field name="invoice_tax_code" ref="taxcode_1040301"/>
+            <field name="credit_note_base_code" ref="taxcode_1040119"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040301"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_1040213">
+            <field name="name">ANTICIPO RETENCION IVA 20%</field>
+            <field name="description">ANTICIPO RETENCION IVA 20%</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_sale"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('-0.2')"/>
+            <field name="invoice_account" ref="pc_101050102"/>
+            <field name="credit_note_account" ref="pc_101050102"/>
+            <field name="invoice_base_code" ref="taxcode_1040119"/>
+            <field name="invoice_tax_code" ref="taxcode_1040302"/>
+            <field name="credit_note_base_code" ref="taxcode_1040119"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040302"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_1040214">
+            <field name="name">ANTICIPO RETENCION IVA 30%</field>
+            <field name="description">ANTICIPO RETENCION IVA 30%</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_sale"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('-0.3')"/>
+            <field name="invoice_account" ref="pc_101050103"/>
+            <field name="credit_note_account" ref="pc_101050103"/>
+            <field name="invoice_base_code" ref="taxcode_1040119"/>
+            <field name="invoice_tax_code" ref="taxcode_1040303"/>
+            <field name="credit_note_base_code" ref="taxcode_1040119"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040303"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_1040215">
+            <field name="name">ANTICIPO RETENCION IVA 70%</field>
+            <field name="description">ANTICIPO RETENCION IVA 70%</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_sale"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('-0.7')"/>
+            <field name="invoice_account" ref="pc_101050104"/>
+            <field name="credit_note_account" ref="pc_101050104"/>
+            <field name="invoice_base_code" ref="taxcode_1040119"/>
+            <field name="invoice_tax_code" ref="taxcode_1040304"/>
+            <field name="credit_note_base_code" ref="taxcode_1040119"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040304"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_1040216">
+            <field name="name">ANTICIPO RETENCION IVA 100%</field>
+            <field name="description">ANTICIPO RETENCION IVA 100%</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_sale"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('-1.0')"/>
+            <field name="invoice_account" ref="pc_101050105"/>
+            <field name="credit_note_account" ref="pc_101050105"/>
+            <field name="invoice_base_code" ref="taxcode_1040119"/>
+            <field name="invoice_tax_code" ref="taxcode_1040305"/>
+            <field name="credit_note_base_code" ref="taxcode_1040119"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040305"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_104022901">
+            <field name="name">ANTICIPO RETENCION EN LA FUENTE 1%</field>
+            <field name="description">ANTICIPO RETENCION EN LA FUENTE 1%</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_sale"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('-0.01')"/>
             <field name="invoice_account" ref="pc_101050201"/>
             <field name="credit_note_account" ref="pc_101050201"/>
-            <field name="invoice_base_code" ref="taxcode_1040120"/>
+            <field name="invoice_base_code" ref="taxcode_1040101"/>
             <field name="invoice_tax_code" ref="taxcode_1040229"/>
-            <field name="credit_note_base_code" ref="taxcode_1040120"/>
+            <field name="credit_note_base_code" ref="taxcode_1040101"/>
             <field name="credit_note_tax_code" ref="taxcode_1040229"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
@@ -1548,17 +1638,17 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
         <record model="account.tax.template" id="tax_104022902">
-            <field name="name">ANTICIPO RETENCION IVA 20%</field>
-            <field name="description">ANTICIPO RETENCION IVA 20%</field>
+            <field name="name">ANTICIPO RETENCION EN LA FUENTE 2%</field>
+            <field name="description">ANTICIPO RETENCION EN LA FUENTE 2%</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">percentage</field>
-            <field name="rate" eval="Decimal('-0.2')"/>
+            <field name="rate" eval="Decimal('-0.02')"/>
             <field name="invoice_account" ref="pc_101050202"/>
             <field name="credit_note_account" ref="pc_101050202"/>
-            <field name="invoice_base_code" ref="taxcode_1040120"/>
+            <field name="invoice_base_code" ref="taxcode_1040101"/>
             <field name="invoice_tax_code" ref="taxcode_1040229"/>
-            <field name="credit_note_base_code" ref="taxcode_1040120"/>
+            <field name="credit_note_base_code" ref="taxcode_1040101"/>
             <field name="credit_note_tax_code" ref="taxcode_1040229"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
@@ -1566,17 +1656,17 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
         <record model="account.tax.template" id="tax_104022903">
-            <field name="name">ANTICIPO RETENCION IVA 30%</field>
-            <field name="description">ANTICIPO RETENCION IVA 30%</field>
+            <field name="name">ANTICIPO RETENCION EN LA FUENTE 8%</field>
+            <field name="description">ANTICIPO RETENCION EN LA FUENTE 8%</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">percentage</field>
-            <field name="rate" eval="Decimal('-0.3')"/>
+            <field name="rate" eval="Decimal('-0.08')"/>
             <field name="invoice_account" ref="pc_101050203"/>
             <field name="credit_note_account" ref="pc_101050203"/>
-            <field name="invoice_base_code" ref="taxcode_1040120"/>
+            <field name="invoice_base_code" ref="taxcode_1040101"/>
             <field name="invoice_tax_code" ref="taxcode_1040229"/>
-            <field name="credit_note_base_code" ref="taxcode_1040120"/>
+            <field name="credit_note_base_code" ref="taxcode_1040101"/>
             <field name="credit_note_tax_code" ref="taxcode_1040229"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
@@ -1584,35 +1674,17 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
         <record model="account.tax.template" id="tax_104022904">
-            <field name="name">ANTICIPO RETENCION IVA 70%</field>
-            <field name="description">ANTICIPO RETENCION IVA 70%</field>
+            <field name="name">ANTICIPO RETENCION EN LA FUENTE 10%</field>
+            <field name="description">ANTICIPO RETENCION EN LA FUENTE 10%</field>
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_sale"/>
             <field name="type">percentage</field>
-            <field name="rate" eval="Decimal('-0.7')"/>
+            <field name="rate" eval="Decimal('-0.1')"/>
             <field name="invoice_account" ref="pc_101050204"/>
             <field name="credit_note_account" ref="pc_101050204"/>
-            <field name="invoice_base_code" ref="taxcode_1040120"/>
+            <field name="invoice_base_code" ref="taxcode_1040101"/>
             <field name="invoice_tax_code" ref="taxcode_1040229"/>
-            <field name="credit_note_base_code" ref="taxcode_1040120"/>
-            <field name="credit_note_tax_code" ref="taxcode_1040229"/>
-            <field name="invoice_base_sign" eval="1"/>
-            <field name="invoice_tax_sign" eval="1"/>
-            <field name="credit_note_base_sign" eval="-1"/>
-            <field name="credit_note_tax_sign" eval="-1"/>
-        </record>
-        <record model="account.tax.template" id="tax_104022905">
-            <field name="name">ANTICIPO RETENCION IVA 100%</field>
-            <field name="description">ANTICIPO RETENCION IVA 100%</field>
-            <field name="account" ref="pc"/>
-            <field name="group" ref="tax_group_sale"/>
-            <field name="type">percentage</field>
-            <field name="rate" eval="Decimal('-1.0')"/>
-            <field name="invoice_account" ref="pc_101050205"/>
-            <field name="credit_note_account" ref="pc_101050205"/>
-            <field name="invoice_base_code" ref="taxcode_1040120"/>
-            <field name="invoice_tax_code" ref="taxcode_1040229"/>
-            <field name="credit_note_base_code" ref="taxcode_1040120"/>
+            <field name="credit_note_base_code" ref="taxcode_1040101"/>
             <field name="credit_note_tax_code" ref="taxcode_1040229"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
@@ -1626,8 +1698,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.1')"/>
-            <field name="invoice_account" ref="pc_20107020241"/>
-            <field name="credit_note_account" ref="pc_20107020241"/>
+            <field name="invoice_account" ref="pc_20107010201"/>
+            <field name="credit_note_account" ref="pc_20107010201"/>
             <field name="invoice_base_code" ref="taxcode_1030101"/>
             <field name="invoice_tax_code" ref="taxcode_1030138"/>
             <field name="credit_note_base_code" ref="taxcode_1030101"/>
@@ -1644,8 +1716,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.1')"/>
-            <field name="invoice_account" ref="pc_20107020201"/>
-            <field name="credit_note_account" ref="pc_20107020201"/>
+            <field name="invoice_account" ref="pc_20107010202"/>
+            <field name="credit_note_account" ref="pc_20107010202"/>
             <field name="invoice_base_code" ref="taxcode_1030102"/>
             <field name="invoice_tax_code" ref="taxcode_1030139"/>
             <field name="credit_note_base_code" ref="taxcode_1030102"/>
@@ -1662,8 +1734,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020202"/>
-            <field name="credit_note_account" ref="pc_20107020202"/>
+            <field name="invoice_account" ref="pc_20107010203"/>
+            <field name="credit_note_account" ref="pc_20107010203"/>
             <field name="invoice_base_code" ref="taxcode_1030103"/>
             <field name="invoice_tax_code" ref="taxcode_1030140"/>
             <field name="credit_note_base_code" ref="taxcode_1030103"/>
@@ -1680,8 +1752,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020203"/>
-            <field name="credit_note_account" ref="pc_20107020203"/>
+            <field name="invoice_account" ref="pc_20107010204"/>
+            <field name="credit_note_account" ref="pc_20107010204"/>
             <field name="invoice_base_code" ref="taxcode_1030103"/>
             <field name="invoice_tax_code" ref="taxcode_1030140"/>
             <field name="credit_note_base_code" ref="taxcode_1030103"/>
@@ -1698,8 +1770,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020204"/>
-            <field name="credit_note_account" ref="pc_20107020204"/>
+            <field name="invoice_account" ref="pc_20107010205"/>
+            <field name="credit_note_account" ref="pc_20107010205"/>
             <field name="invoice_base_code" ref="taxcode_1030103"/>
             <field name="invoice_tax_code" ref="taxcode_1030140"/>
             <field name="credit_note_base_code" ref="taxcode_1030103"/>
@@ -1716,8 +1788,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020205"/>
-            <field name="credit_note_account" ref="pc_20107020205"/>
+            <field name="invoice_account" ref="pc_20107010206"/>
+            <field name="credit_note_account" ref="pc_20107010206"/>
             <field name="invoice_base_code" ref="taxcode_1030103"/>
             <field name="invoice_tax_code" ref="taxcode_1030140"/>
             <field name="credit_note_base_code" ref="taxcode_1030103"/>
@@ -1734,8 +1806,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020206"/>
-            <field name="credit_note_account" ref="pc_20107020206"/>
+            <field name="invoice_account" ref="pc_20107010207"/>
+            <field name="credit_note_account" ref="pc_20107010207"/>
             <field name="invoice_base_code" ref="taxcode_1030103"/>
             <field name="invoice_tax_code" ref="taxcode_1030140"/>
             <field name="credit_note_base_code" ref="taxcode_1030103"/>
@@ -1752,8 +1824,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020207"/>
-            <field name="credit_note_account" ref="pc_20107020207"/>
+            <field name="invoice_account" ref="pc_20107010208"/>
+            <field name="credit_note_account" ref="pc_20107010208"/>
             <field name="invoice_base_code" ref="taxcode_1030103"/>
             <field name="invoice_tax_code" ref="taxcode_1030140"/>
             <field name="credit_note_base_code" ref="taxcode_1030103"/>
@@ -1770,8 +1842,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020208"/>
-            <field name="credit_note_account" ref="pc_20107020208"/>
+            <field name="invoice_account" ref="pc_20107010209"/>
+            <field name="credit_note_account" ref="pc_20107010209"/>
             <field name="invoice_base_code" ref="taxcode_1030104"/>
             <field name="invoice_tax_code" ref="taxcode_1030141"/>
             <field name="credit_note_base_code" ref="taxcode_1030104"/>
@@ -1788,8 +1860,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.1')"/>
-            <field name="invoice_account" ref="pc_20107020209"/>
-            <field name="credit_note_account" ref="pc_20107020209"/>
+            <field name="invoice_account" ref="pc_20107010210"/>
+            <field name="credit_note_account" ref="pc_20107010210"/>
             <field name="invoice_base_code" ref="taxcode_1030105"/>
             <field name="invoice_tax_code" ref="taxcode_1030142"/>
             <field name="credit_note_base_code" ref="taxcode_1030105"/>
@@ -1806,8 +1878,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020210"/>
-            <field name="credit_note_account" ref="pc_20107020210"/>
+            <field name="invoice_account" ref="pc_20107010211"/>
+            <field name="credit_note_account" ref="pc_20107010211"/>
             <field name="invoice_base_code" ref="taxcode_1030106"/>
             <field name="invoice_tax_code" ref="taxcode_1030143"/>
             <field name="credit_note_base_code" ref="taxcode_1030106"/>
@@ -1824,8 +1896,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020211"/>
-            <field name="credit_note_account" ref="pc_20107020211"/>
+            <field name="invoice_account" ref="pc_20107010212"/>
+            <field name="credit_note_account" ref="pc_20107010212"/>
             <field name="invoice_base_code" ref="taxcode_1030107"/>
             <field name="invoice_tax_code" ref="taxcode_1030144"/>
             <field name="credit_note_base_code" ref="taxcode_1030107"/>
@@ -1842,8 +1914,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020212"/>
-            <field name="credit_note_account" ref="pc_20107020212"/>
+            <field name="invoice_account" ref="pc_20107010213"/>
+            <field name="credit_note_account" ref="pc_20107010213"/>
             <field name="invoice_base_code" ref="taxcode_1030108"/>
             <field name="invoice_tax_code" ref="taxcode_1030145"/>
             <field name="credit_note_base_code" ref="taxcode_1030108"/>
@@ -1860,8 +1932,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020213"/>
-            <field name="credit_note_account" ref="pc_20107020213"/>
+            <field name="invoice_account" ref="pc_20107010214"/>
+            <field name="credit_note_account" ref="pc_20107010214"/>
             <field name="invoice_base_code" ref="taxcode_1030109"/>
             <field name="invoice_tax_code" ref="taxcode_1030146"/>
             <field name="credit_note_base_code" ref="taxcode_1030109"/>
@@ -1878,8 +1950,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020214"/>
-            <field name="credit_note_account" ref="pc_20107020214"/>
+            <field name="invoice_account" ref="pc_20107010215"/>
+            <field name="credit_note_account" ref="pc_20107010215"/>
             <field name="invoice_base_code" ref="taxcode_1030109"/>
             <field name="invoice_tax_code" ref="taxcode_1030146"/>
             <field name="credit_note_base_code" ref="taxcode_1030109"/>
@@ -1896,8 +1968,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020215"/>
-            <field name="credit_note_account" ref="pc_20107020215"/>
+            <field name="invoice_account" ref="pc_20107010216"/>
+            <field name="credit_note_account" ref="pc_20107010216"/>
             <field name="invoice_base_code" ref="taxcode_1030110"/>
             <field name="invoice_tax_code" ref="taxcode_1030147"/>
             <field name="credit_note_base_code" ref="taxcode_1030110"/>
@@ -1914,8 +1986,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020216"/>
-            <field name="credit_note_account" ref="pc_20107020216"/>
+            <field name="invoice_account" ref="pc_20107010217"/>
+            <field name="credit_note_account" ref="pc_20107010217"/>
             <field name="invoice_base_code" ref="taxcode_1030110"/>
             <field name="invoice_tax_code" ref="taxcode_1030147"/>
             <field name="credit_note_base_code" ref="taxcode_1030110"/>
@@ -1932,8 +2004,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020217"/>
-            <field name="credit_note_account" ref="pc_20107020217"/>
+            <field name="invoice_account" ref="pc_20107010218"/>
+            <field name="credit_note_account" ref="pc_20107010218"/>
             <field name="invoice_base_code" ref="taxcode_1030110"/>
             <field name="invoice_tax_code" ref="taxcode_1030147"/>
             <field name="credit_note_base_code" ref="taxcode_1030110"/>
@@ -1950,8 +2022,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020218"/>
-            <field name="credit_note_account" ref="pc_20107020218"/>
+            <field name="invoice_account" ref="pc_20107010219"/>
+            <field name="credit_note_account" ref="pc_20107010219"/>
             <field name="invoice_base_code" ref="taxcode_1030110"/>
             <field name="invoice_tax_code" ref="taxcode_1030147"/>
             <field name="credit_note_base_code" ref="taxcode_1030110"/>
@@ -1968,8 +2040,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020219"/>
-            <field name="credit_note_account" ref="pc_20107020219"/>
+            <field name="invoice_account" ref="pc_20107010220"/>
+            <field name="credit_note_account" ref="pc_20107010220"/>
             <field name="invoice_base_code" ref="taxcode_1030111"/>
             <field name="invoice_tax_code" ref="taxcode_1030148"/>
             <field name="credit_note_base_code" ref="taxcode_1030111"/>
@@ -1986,8 +2058,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020220"/>
-            <field name="credit_note_account" ref="pc_20107020220"/>
+            <field name="invoice_account" ref="pc_20107010221"/>
+            <field name="credit_note_account" ref="pc_20107010221"/>
             <field name="invoice_base_code" ref="taxcode_1030112"/>
             <field name="invoice_tax_code" ref="taxcode_1030149"/>
             <field name="credit_note_base_code" ref="taxcode_1030112"/>
@@ -2004,8 +2076,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020221"/>
-            <field name="credit_note_account" ref="pc_20107020221"/>
+            <field name="invoice_account" ref="pc_20107010222"/>
+            <field name="credit_note_account" ref="pc_20107010222"/>
             <field name="invoice_base_code" ref="taxcode_1030113"/>
             <field name="invoice_tax_code" ref="taxcode_1030150"/>
             <field name="credit_note_base_code" ref="taxcode_1030113"/>
@@ -2022,8 +2094,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020222"/>
-            <field name="credit_note_account" ref="pc_20107020222"/>
+            <field name="invoice_account" ref="pc_20107010223"/>
+            <field name="credit_note_account" ref="pc_20107010223"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2040,8 +2112,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020223"/>
-            <field name="credit_note_account" ref="pc_20107020223"/>
+            <field name="invoice_account" ref="pc_20107010224"/>
+            <field name="credit_note_account" ref="pc_20107010224"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2058,8 +2130,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020224"/>
-            <field name="credit_note_account" ref="pc_20107020224"/>
+            <field name="invoice_account" ref="pc_20107010225"/>
+            <field name="credit_note_account" ref="pc_20107010225"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2076,8 +2148,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020225"/>
-            <field name="credit_note_account" ref="pc_20107020225"/>
+            <field name="invoice_account" ref="pc_20107010226"/>
+            <field name="credit_note_account" ref="pc_20107010226"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2094,8 +2166,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020226"/>
-            <field name="credit_note_account" ref="pc_20107020226"/>
+            <field name="invoice_account" ref="pc_20107010227"/>
+            <field name="credit_note_account" ref="pc_20107010227"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2112,8 +2184,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020227"/>
-            <field name="credit_note_account" ref="pc_20107020227"/>
+            <field name="invoice_account" ref="pc_20107010228"/>
+            <field name="credit_note_account" ref="pc_20107010228"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2130,8 +2202,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020228"/>
-            <field name="credit_note_account" ref="pc_20107020228"/>
+            <field name="invoice_account" ref="pc_20107010229"/>
+            <field name="credit_note_account" ref="pc_20107010229"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2148,8 +2220,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020229"/>
-            <field name="credit_note_account" ref="pc_20107020229"/>
+            <field name="invoice_account" ref="pc_20107010230"/>
+            <field name="credit_note_account" ref="pc_20107010230"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2166,8 +2238,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020230"/>
-            <field name="credit_note_account" ref="pc_20107020230"/>
+            <field name="invoice_account" ref="pc_20107010231"/>
+            <field name="credit_note_account" ref="pc_20107010231"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2184,8 +2256,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020231"/>
-            <field name="credit_note_account" ref="pc_20107020231"/>
+            <field name="invoice_account" ref="pc_20107010232"/>
+            <field name="credit_note_account" ref="pc_20107010232"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2202,8 +2274,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020232"/>
-            <field name="credit_note_account" ref="pc_20107020232"/>
+            <field name="invoice_account" ref="pc_20107010233"/>
+            <field name="credit_note_account" ref="pc_20107010233"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2220,8 +2292,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020233"/>
-            <field name="credit_note_account" ref="pc_20107020233"/>
+            <field name="invoice_account" ref="pc_20107010234"/>
+            <field name="credit_note_account" ref="pc_20107010234"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2238,8 +2310,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020234"/>
-            <field name="credit_note_account" ref="pc_20107020234"/>
+            <field name="invoice_account" ref="pc_20107010235"/>
+            <field name="credit_note_account" ref="pc_20107010235"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2256,8 +2328,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020235"/>
-            <field name="credit_note_account" ref="pc_20107020235"/>
+            <field name="invoice_account" ref="pc_20107010236"/>
+            <field name="credit_note_account" ref="pc_20107010236"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2273,8 +2345,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">none</field>
-            <field name="invoice_account" ref="pc_20107020236"/>
-            <field name="credit_note_account" ref="pc_20107020236"/>
+            <field name="invoice_account" ref="pc_20107010237"/>
+            <field name="credit_note_account" ref="pc_20107010237"/>
             <field name="invoice_base_code" ref="taxcode_1030114"/>
             <field name="invoice_tax_code" ref="taxcode_1030151"/>
             <field name="credit_note_base_code" ref="taxcode_1030114"/>
@@ -2291,8 +2363,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020237"/>
-            <field name="credit_note_account" ref="pc_20107020237"/>
+            <field name="invoice_account" ref="pc_20107010238"/>
+            <field name="credit_note_account" ref="pc_20107010238"/>
             <field name="invoice_base_code" ref="taxcode_1030115"/>
             <field name="invoice_tax_code" ref="taxcode_1030152"/>
             <field name="credit_note_base_code" ref="taxcode_1030115"/>
@@ -2309,8 +2381,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020238"/>
-            <field name="credit_note_account" ref="pc_20107020238"/>
+            <field name="invoice_account" ref="pc_20107010239"/>
+            <field name="credit_note_account" ref="pc_20107010239"/>
             <field name="invoice_base_code" ref="taxcode_1030115"/>
             <field name="invoice_tax_code" ref="taxcode_1030152"/>
             <field name="credit_note_base_code" ref="taxcode_1030115"/>
@@ -2327,8 +2399,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.22')"/>
-            <field name="invoice_account" ref="pc_20107020239"/>
-            <field name="credit_note_account" ref="pc_20107020239"/>
+            <field name="invoice_account" ref="pc_20107010240"/>
+            <field name="credit_note_account" ref="pc_20107010240"/>
             <field name="invoice_base_code" ref="taxcode_1030116"/>
             <field name="invoice_tax_code" ref="taxcode_1030153"/>
             <field name="credit_note_base_code" ref="taxcode_1030116"/>
@@ -2345,8 +2417,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.22')"/>
-            <field name="invoice_account" ref="pc_20107020240"/>
-            <field name="credit_note_account" ref="pc_20107020240"/>
+            <field name="invoice_account" ref="pc_20107010241"/>
+            <field name="credit_note_account" ref="pc_20107010241"/>
             <field name="invoice_base_code" ref="taxcode_1030116"/>
             <field name="invoice_tax_code" ref="taxcode_1030153"/>
             <field name="credit_note_base_code" ref="taxcode_1030116"/>
@@ -2363,8 +2435,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020241"/>
-            <field name="credit_note_account" ref="pc_20107020241"/>
+            <field name="invoice_account" ref="pc_20107010242"/>
+            <field name="credit_note_account" ref="pc_20107010242"/>
             <field name="invoice_base_code" ref="taxcode_1030117"/>
             <field name="invoice_tax_code" ref="taxcode_1030154"/>
             <field name="credit_note_base_code" ref="taxcode_1030117"/>
@@ -2381,8 +2453,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020242"/>
-            <field name="credit_note_account" ref="pc_20107020242"/>
+            <field name="invoice_account" ref="pc_20107010243"/>
+            <field name="credit_note_account" ref="pc_20107010243"/>
             <field name="invoice_base_code" ref="taxcode_1030118"/>
             <field name="invoice_tax_code" ref="taxcode_1030155"/>
             <field name="credit_note_base_code" ref="taxcode_1030118"/>
@@ -2399,8 +2471,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020243"/>
-            <field name="credit_note_account" ref="pc_20107020243"/>
+            <field name="invoice_account" ref="pc_20107010244"/>
+            <field name="credit_note_account" ref="pc_20107010244"/>
             <field name="invoice_base_code" ref="taxcode_1030119"/>
             <field name="invoice_tax_code" ref="taxcode_1030156"/>
             <field name="credit_note_base_code" ref="taxcode_1030119"/>
@@ -2417,8 +2489,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020244"/>
-            <field name="credit_note_account" ref="pc_20107020244"/>
+            <field name="invoice_account" ref="pc_20107010245"/>
+            <field name="credit_note_account" ref="pc_20107010245"/>
             <field name="invoice_base_code" ref="taxcode_1030120"/>
             <field name="invoice_tax_code" ref="taxcode_1030157"/>
             <field name="credit_note_base_code" ref="taxcode_1030120"/>
@@ -2435,8 +2507,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020245"/>
-            <field name="credit_note_account" ref="pc_20107020245"/>
+            <field name="invoice_account" ref="pc_20107010246"/>
+            <field name="credit_note_account" ref="pc_20107010246"/>
             <field name="invoice_base_code" ref="taxcode_1030121"/>
             <field name="invoice_tax_code" ref="taxcode_1030158"/>
             <field name="credit_note_base_code" ref="taxcode_1030121"/>
@@ -2453,8 +2525,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020246"/>
-            <field name="credit_note_account" ref="pc_20107020246"/>
+            <field name="invoice_account" ref="pc_20107010247"/>
+            <field name="credit_note_account" ref="pc_20107010247"/>
             <field name="invoice_base_code" ref="taxcode_1030122"/>
             <field name="credit_note_base_code" ref="taxcode_1030122"/>
             <field name="invoice_base_sign" eval="1"/>
@@ -2468,8 +2540,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">none</field>
-            <field name="invoice_account" ref="pc_20107020247"/>
-            <field name="credit_note_account" ref="pc_20107020247"/>
+            <field name="invoice_account" ref="pc_20107010248"/>
+            <field name="credit_note_account" ref="pc_20107010248"/>
             <field name="invoice_base_code" ref="taxcode_1030123"/>
             <field name="credit_note_base_code" ref="taxcode_1030123"/>
             <field name="invoice_base_sign" eval="1"/>
@@ -2484,8 +2556,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020248"/>
-            <field name="credit_note_account" ref="pc_20107020248"/>
+            <field name="invoice_account" ref="pc_20107010249"/>
+            <field name="credit_note_account" ref="pc_20107010249"/>
             <field name="invoice_base_code" ref="taxcode_1030123"/>
             <field name="credit_note_base_code" ref="taxcode_1030123"/>
             <field name="invoice_base_sign" eval="1"/>
@@ -2500,8 +2572,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020249"/>
-            <field name="credit_note_account" ref="pc_20107020249"/>
+            <field name="invoice_account" ref="pc_20107010250"/>
+            <field name="credit_note_account" ref="pc_20107010250"/>
             <field name="invoice_base_code" ref="taxcode_1030123"/>
             <field name="credit_note_base_code" ref="taxcode_1030123"/>
             <field name="invoice_base_sign" eval="1"/>
@@ -2516,8 +2588,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020250"/>
-            <field name="credit_note_account" ref="pc_20107020250"/>
+            <field name="invoice_account" ref="pc_20107010251"/>
+            <field name="credit_note_account" ref="pc_20107010251"/>
             <field name="invoice_base_code" ref="taxcode_1030123"/>
             <field name="credit_note_base_code" ref="taxcode_1030123"/>
             <field name="invoice_base_sign" eval="1"/>
@@ -2532,8 +2604,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020251"/>
-            <field name="credit_note_account" ref="pc_20107020251"/>
+            <field name="invoice_account" ref="pc_20107010252"/>
+            <field name="credit_note_account" ref="pc_20107010252"/>
             <field name="invoice_base_code" ref="taxcode_1030123"/>
             <field name="credit_note_base_code" ref="taxcode_1030123"/>
             <field name="invoice_base_sign" eval="1"/>
@@ -2548,8 +2620,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020252"/>
-            <field name="credit_note_account" ref="pc_20107020252"/>
+            <field name="invoice_account" ref="pc_20107010253"/>
+            <field name="credit_note_account" ref="pc_20107010253"/>
             <field name="invoice_base_code" ref="taxcode_1030123"/>
             <field name="credit_note_base_code" ref="taxcode_1030123"/>
             <field name="invoice_base_sign" eval="1"/>
@@ -2564,8 +2636,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020253"/>
-            <field name="credit_note_account" ref="pc_20107020253"/>
+            <field name="invoice_account" ref="pc_20107010254"/>
+            <field name="credit_note_account" ref="pc_20107010254"/>
             <field name="invoice_base_code" ref="taxcode_1030123"/>
             <field name="credit_note_base_code" ref="taxcode_1030123"/>
             <field name="invoice_base_sign" eval="1"/>
@@ -2579,8 +2651,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">none</field>
-            <field name="invoice_account" ref="pc_20107020254"/>
-            <field name="credit_note_account" ref="pc_20107020254"/>
+            <field name="invoice_account" ref="pc_20107010255"/>
+            <field name="credit_note_account" ref="pc_20107010255"/>
             <field name="invoice_base_code" ref="taxcode_1030123"/>
             <field name="credit_note_base_code" ref="taxcode_1030123"/>
             <field name="invoice_base_sign" eval="1"/>
@@ -2595,8 +2667,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020255"/>
-            <field name="credit_note_account" ref="pc_20107020255"/>
+            <field name="invoice_account" ref="pc_20107010256"/>
+            <field name="credit_note_account" ref="pc_20107010256"/>
             <field name="invoice_base_code" ref="taxcode_1030123"/>
             <field name="credit_note_base_code" ref="taxcode_1030123"/>
             <field name="invoice_base_sign" eval="1"/>
@@ -2611,8 +2683,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.002')"/>
-            <field name="invoice_account" ref="pc_20107020256"/>
-            <field name="credit_note_account" ref="pc_20107020256"/>
+            <field name="invoice_account" ref="pc_20107010257"/>
+            <field name="credit_note_account" ref="pc_20107010257"/>
             <field name="invoice_base_code" ref="taxcode_1030124"/>
             <field name="invoice_tax_code" ref="taxcode_1030161"/>
             <field name="credit_note_base_code" ref="taxcode_1030124"/>
@@ -2629,8 +2701,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020257"/>
-            <field name="credit_note_account" ref="pc_20107020257"/>
+            <field name="invoice_account" ref="pc_20107010258"/>
+            <field name="credit_note_account" ref="pc_20107010258"/>
             <field name="invoice_base_code" ref="taxcode_1030125"/>
             <field name="invoice_tax_code" ref="taxcode_1030162"/>
             <field name="credit_note_base_code" ref="taxcode_1030125"/>
@@ -2647,8 +2719,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.15')"/>
-            <field name="invoice_account" ref="pc_20107020258"/>
-            <field name="credit_note_account" ref="pc_20107020258"/>
+            <field name="invoice_account" ref="pc_20107010259"/>
+            <field name="credit_note_account" ref="pc_20107010259"/>
             <field name="invoice_base_code" ref="taxcode_1030126"/>
             <field name="invoice_tax_code" ref="taxcode_1030163"/>
             <field name="credit_note_base_code" ref="taxcode_1030126"/>
@@ -2665,8 +2737,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-2e-05')"/>
-            <field name="invoice_account" ref="pc_20107020259"/>
-            <field name="credit_note_account" ref="pc_20107020259"/>
+            <field name="invoice_account" ref="pc_20107010260"/>
+            <field name="credit_note_account" ref="pc_20107010260"/>
             <field name="invoice_base_code" ref="taxcode_1030127"/>
             <field name="invoice_tax_code" ref="taxcode_1030164"/>
             <field name="credit_note_base_code" ref="taxcode_1030127"/>
@@ -2683,8 +2755,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-3e-05')"/>
-            <field name="invoice_account" ref="pc_20107020260"/>
-            <field name="credit_note_account" ref="pc_20107020260"/>
+            <field name="invoice_account" ref="pc_20107010261"/>
+            <field name="credit_note_account" ref="pc_20107010261"/>
             <field name="invoice_base_code" ref="taxcode_1030128"/>
             <field name="invoice_tax_code" ref="taxcode_1030165"/>
             <field name="credit_note_base_code" ref="taxcode_1030128"/>
@@ -2701,8 +2773,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020261"/>
-            <field name="credit_note_account" ref="pc_20107020261"/>
+            <field name="invoice_account" ref="pc_20107010262"/>
+            <field name="credit_note_account" ref="pc_20107010262"/>
             <field name="invoice_base_code" ref="taxcode_1030129"/>
             <field name="invoice_tax_code" ref="taxcode_1030166"/>
             <field name="credit_note_base_code" ref="taxcode_1030129"/>
@@ -2719,8 +2791,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020262"/>
-            <field name="credit_note_account" ref="pc_20107020262"/>
+            <field name="invoice_account" ref="pc_20107010263"/>
+            <field name="credit_note_account" ref="pc_20107010263"/>
             <field name="invoice_base_code" ref="taxcode_1030130"/>
             <field name="invoice_tax_code" ref="taxcode_1030167"/>
             <field name="credit_note_base_code" ref="taxcode_1030130"/>
@@ -2737,8 +2809,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020263"/>
-            <field name="credit_note_account" ref="pc_20107020263"/>
+            <field name="invoice_account" ref="pc_20107010264"/>
+            <field name="credit_note_account" ref="pc_20107010264"/>
             <field name="invoice_base_code" ref="taxcode_1030131"/>
             <field name="invoice_tax_code" ref="taxcode_1030168"/>
             <field name="credit_note_base_code" ref="taxcode_1030131"/>
@@ -2755,8 +2827,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.0125')"/>
-            <field name="invoice_account" ref="pc_20107020264"/>
-            <field name="credit_note_account" ref="pc_20107020264"/>
+            <field name="invoice_account" ref="pc_20107010265"/>
+            <field name="credit_note_account" ref="pc_20107010265"/>
             <field name="invoice_base_code" ref="taxcode_1030132"/>
             <field name="invoice_tax_code" ref="taxcode_1030169"/>
             <field name="credit_note_base_code" ref="taxcode_1030132"/>
@@ -2773,8 +2845,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.005')"/>
-            <field name="invoice_account" ref="pc_20107020265"/>
-            <field name="credit_note_account" ref="pc_20107020265"/>
+            <field name="invoice_account" ref="pc_20107010266"/>
+            <field name="credit_note_account" ref="pc_20107010266"/>
             <field name="invoice_base_code" ref="taxcode_1030133"/>
             <field name="invoice_tax_code" ref="taxcode_1030170"/>
             <field name="credit_note_base_code" ref="taxcode_1030133"/>
@@ -2791,8 +2863,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020266"/>
-            <field name="credit_note_account" ref="pc_20107020266"/>
+            <field name="invoice_account" ref="pc_20107010267"/>
+            <field name="credit_note_account" ref="pc_20107010267"/>
             <field name="invoice_base_code" ref="taxcode_1030134"/>
             <field name="invoice_tax_code" ref="taxcode_1030171"/>
             <field name="credit_note_base_code" ref="taxcode_1030134"/>
@@ -2809,8 +2881,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.01')"/>
-            <field name="invoice_account" ref="pc_20107020267"/>
-            <field name="credit_note_account" ref="pc_20107020267"/>
+            <field name="invoice_account" ref="pc_20107010268"/>
+            <field name="credit_note_account" ref="pc_20107010268"/>
             <field name="invoice_base_code" ref="taxcode_1030134"/>
             <field name="invoice_tax_code" ref="taxcode_1030171"/>
             <field name="credit_note_base_code" ref="taxcode_1030134"/>
@@ -2827,8 +2899,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020268"/>
-            <field name="credit_note_account" ref="pc_20107020268"/>
+            <field name="invoice_account" ref="pc_20107010269"/>
+            <field name="credit_note_account" ref="pc_20107010269"/>
             <field name="invoice_base_code" ref="taxcode_1030135"/>
             <field name="invoice_tax_code" ref="taxcode_1030172"/>
             <field name="credit_note_base_code" ref="taxcode_1030135"/>
@@ -2845,8 +2917,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.02')"/>
-            <field name="invoice_account" ref="pc_20107020269"/>
-            <field name="credit_note_account" ref="pc_20107020269"/>
+            <field name="invoice_account" ref="pc_20107010270"/>
+            <field name="credit_note_account" ref="pc_20107010270"/>
             <field name="invoice_base_code" ref="taxcode_1030135"/>
             <field name="invoice_tax_code" ref="taxcode_1030172"/>
             <field name="credit_note_base_code" ref="taxcode_1030135"/>
@@ -2863,8 +2935,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.08')"/>
-            <field name="invoice_account" ref="pc_20107020270"/>
-            <field name="credit_note_account" ref="pc_20107020270"/>
+            <field name="invoice_account" ref="pc_20107010271"/>
+            <field name="credit_note_account" ref="pc_20107010271"/>
             <field name="invoice_base_code" ref="taxcode_1030136"/>
             <field name="invoice_tax_code" ref="taxcode_1030173"/>
             <field name="credit_note_base_code" ref="taxcode_1030136"/>
@@ -2881,8 +2953,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020270"/>
-            <field name="credit_note_account" ref="pc_20107020270"/>
+            <field name="invoice_account" ref="pc_20107010272"/>
+            <field name="credit_note_account" ref="pc_20107010272"/>
             <field name="invoice_base_code" ref="taxcode_1030137"/>
             <field name="invoice_tax_code" ref="taxcode_1030174"/>
             <field name="credit_note_base_code" ref="taxcode_1030137"/>
@@ -2899,8 +2971,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020271"/>
-            <field name="credit_note_account" ref="pc_20107020271"/>
+            <field name="invoice_account" ref="pc_20107010273"/>
+            <field name="credit_note_account" ref="pc_20107010273"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -2913,8 +2985,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020272"/>
-            <field name="credit_note_account" ref="pc_20107020272"/>
+            <field name="invoice_account" ref="pc_20107010274"/>
+            <field name="credit_note_account" ref="pc_20107010274"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -2927,8 +2999,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020273"/>
-            <field name="credit_note_account" ref="pc_20107020273"/>
+            <field name="invoice_account" ref="pc_20107010275"/>
+            <field name="credit_note_account" ref="pc_20107010275"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -2941,8 +3013,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020274"/>
-            <field name="credit_note_account" ref="pc_20107020274"/>
+            <field name="invoice_account" ref="pc_20107010276"/>
+            <field name="credit_note_account" ref="pc_20107010276"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -2955,8 +3027,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020275"/>
-            <field name="credit_note_account" ref="pc_20107020275"/>
+            <field name="invoice_account" ref="pc_20107010277"/>
+            <field name="credit_note_account" ref="pc_20107010277"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -2968,8 +3040,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="account" ref="pc"/>
             <field name="group" ref="tax_group_purchase"/>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020276"/>
-            <field name="credit_note_account" ref="pc_20107020276"/>
+            <field name="invoice_account" ref="pc_20107010278"/>
+            <field name="credit_note_account" ref="pc_20107010278"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -2982,8 +3054,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.22')"/>
-            <field name="invoice_account" ref="pc_20107020277"/>
-            <field name="credit_note_account" ref="pc_20107020277"/>
+            <field name="invoice_account" ref="pc_20107010279"/>
+            <field name="credit_note_account" ref="pc_20107010279"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -2996,8 +3068,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020278"/>
-            <field name="credit_note_account" ref="pc_20107020278"/>
+            <field name="invoice_account" ref="pc_20107010280"/>
+            <field name="credit_note_account" ref="pc_20107010280"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3010,8 +3082,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020279"/>
-            <field name="credit_note_account" ref="pc_20107020279"/>
+            <field name="invoice_account" ref="pc_20107010281"/>
+            <field name="credit_note_account" ref="pc_20107010281"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3024,8 +3096,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_20107020280"/>
-            <field name="credit_note_account" ref="pc_20107020280"/>
+            <field name="invoice_account" ref="pc_20107010282"/>
+            <field name="credit_note_account" ref="pc_20107010282"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3038,8 +3110,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.13')"/>
-            <field name="invoice_account" ref="pc_20107020281"/>
-            <field name="credit_note_account" ref="pc_20107020281"/>
+            <field name="invoice_account" ref="pc_20107010283"/>
+            <field name="credit_note_account" ref="pc_20107010283"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3052,8 +3124,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.25')"/>
-            <field name="invoice_account" ref="pc_20107020282"/>
-            <field name="credit_note_account" ref="pc_20107020282"/>
+            <field name="invoice_account" ref="pc_20107010284"/>
+            <field name="credit_note_account" ref="pc_20107010284"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3066,8 +3138,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.13')"/>
-            <field name="invoice_account" ref="pc_20107020283"/>
-            <field name="credit_note_account" ref="pc_20107020283"/>
+            <field name="invoice_account" ref="pc_20107010285"/>
+            <field name="credit_note_account" ref="pc_20107010285"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3080,8 +3152,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020284"/>
-            <field name="credit_note_account" ref="pc_20107020284"/>
+            <field name="invoice_account" ref="pc_20107010286"/>
+            <field name="credit_note_account" ref="pc_20107010286"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3094,8 +3166,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020285"/>
-            <field name="credit_note_account" ref="pc_20107020285"/>
+            <field name="invoice_account" ref="pc_20107010287"/>
+            <field name="credit_note_account" ref="pc_20107010287"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3108,8 +3180,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020286"/>
-            <field name="credit_note_account" ref="pc_20107020286"/>
+            <field name="invoice_account" ref="pc_20107010288"/>
+            <field name="credit_note_account" ref="pc_20107010288"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3122,8 +3194,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020287"/>
-            <field name="credit_note_account" ref="pc_20107020287"/>
+            <field name="invoice_account" ref="pc_20107010289"/>
+            <field name="credit_note_account" ref="pc_20107010289"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3136,8 +3208,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020288"/>
-            <field name="credit_note_account" ref="pc_20107020288"/>
+            <field name="invoice_account" ref="pc_20107010290"/>
+            <field name="credit_note_account" ref="pc_20107010290"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3150,8 +3222,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020289"/>
-            <field name="credit_note_account" ref="pc_20107020289"/>
+            <field name="invoice_account" ref="pc_20107010291"/>
+            <field name="credit_note_account" ref="pc_20107010291"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3164,8 +3236,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020290"/>
-            <field name="credit_note_account" ref="pc_20107020290"/>
+            <field name="invoice_account" ref="pc_20107010292"/>
+            <field name="credit_note_account" ref="pc_20107010292"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3178,8 +3250,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020291"/>
-            <field name="credit_note_account" ref="pc_20107020291"/>
+            <field name="invoice_account" ref="pc_20107010293"/>
+            <field name="credit_note_account" ref="pc_20107010293"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3192,8 +3264,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020292"/>
-            <field name="credit_note_account" ref="pc_20107020292"/>
+            <field name="invoice_account" ref="pc_20107010294"/>
+            <field name="credit_note_account" ref="pc_20107010294"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3206,8 +3278,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020293"/>
-            <field name="credit_note_account" ref="pc_20107020293"/>
+            <field name="invoice_account" ref="pc_20107010295"/>
+            <field name="credit_note_account" ref="pc_20107010295"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3220,8 +3292,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020294"/>
-            <field name="credit_note_account" ref="pc_20107020294"/>
+            <field name="invoice_account" ref="pc_20107010296"/>
+            <field name="credit_note_account" ref="pc_20107010296"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3234,8 +3306,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020295"/>
-            <field name="credit_note_account" ref="pc_20107020295"/>
+            <field name="invoice_account" ref="pc_20107010297"/>
+            <field name="credit_note_account" ref="pc_20107010297"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3248,8 +3320,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020296"/>
-            <field name="credit_note_account" ref="pc_20107020296"/>
+            <field name="invoice_account" ref="pc_20107010298"/>
+            <field name="credit_note_account" ref="pc_20107010298"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3262,8 +3334,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020297"/>
-            <field name="credit_note_account" ref="pc_20107020297"/>
+            <field name="invoice_account" ref="pc_20107010299"/>
+            <field name="credit_note_account" ref="pc_20107010299"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3276,8 +3348,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020298"/>
-            <field name="credit_note_account" ref="pc_20107020298"/>
+            <field name="invoice_account" ref="pc_201070102100"/>
+            <field name="credit_note_account" ref="pc_201070102100"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3290,8 +3362,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_20107020299"/>
-            <field name="credit_note_account" ref="pc_20107020299"/>
+            <field name="invoice_account" ref="pc_201070102101"/>
+            <field name="credit_note_account" ref="pc_201070102101"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3304,8 +3376,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202100"/>
-            <field name="credit_note_account" ref="pc_201070202100"/>
+            <field name="invoice_account" ref="pc_201070102102"/>
+            <field name="credit_note_account" ref="pc_201070102102"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3318,8 +3390,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202101"/>
-            <field name="credit_note_account" ref="pc_201070202101"/>
+            <field name="invoice_account" ref="pc_201070102103"/>
+            <field name="credit_note_account" ref="pc_201070102103"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3332,8 +3404,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202102"/>
-            <field name="credit_note_account" ref="pc_201070202102"/>
+            <field name="invoice_account" ref="pc_201070102104"/>
+            <field name="credit_note_account" ref="pc_201070102104"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3346,8 +3418,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202103"/>
-            <field name="credit_note_account" ref="pc_201070202103"/>
+            <field name="invoice_account" ref="pc_201070102105"/>
+            <field name="credit_note_account" ref="pc_201070102105"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3360,8 +3432,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202104"/>
-            <field name="credit_note_account" ref="pc_201070202104"/>
+            <field name="invoice_account" ref="pc_201070102106"/>
+            <field name="credit_note_account" ref="pc_201070102106"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3374,8 +3446,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202105"/>
-            <field name="credit_note_account" ref="pc_201070202105"/>
+            <field name="invoice_account" ref="pc_201070102107"/>
+            <field name="credit_note_account" ref="pc_201070102107"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3388,8 +3460,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202106"/>
-            <field name="credit_note_account" ref="pc_201070202106"/>
+            <field name="invoice_account" ref="pc_201070102108"/>
+            <field name="credit_note_account" ref="pc_201070102108"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3402,8 +3474,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202107"/>
-            <field name="credit_note_account" ref="pc_201070202107"/>
+            <field name="invoice_account" ref="pc_201070102109"/>
+            <field name="credit_note_account" ref="pc_201070102109"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3416,8 +3488,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202108"/>
-            <field name="credit_note_account" ref="pc_201070202108"/>
+            <field name="invoice_account" ref="pc_201070102110"/>
+            <field name="credit_note_account" ref="pc_201070102110"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3430,8 +3502,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202109"/>
-            <field name="credit_note_account" ref="pc_201070202109"/>
+            <field name="invoice_account" ref="pc_201070102111"/>
+            <field name="credit_note_account" ref="pc_201070102111"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3444,8 +3516,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202110"/>
-            <field name="credit_note_account" ref="pc_201070202110"/>
+            <field name="invoice_account" ref="pc_201070102112"/>
+            <field name="credit_note_account" ref="pc_201070102112"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3458,8 +3530,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.05')"/>
-            <field name="invoice_account" ref="pc_201070202111"/>
-            <field name="credit_note_account" ref="pc_201070202111"/>
+            <field name="invoice_account" ref="pc_201070102113"/>
+            <field name="credit_note_account" ref="pc_201070102113"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3472,8 +3544,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.001')"/>
-            <field name="invoice_account" ref="pc_201070202112"/>
-            <field name="credit_note_account" ref="pc_201070202112"/>
+            <field name="invoice_account" ref="pc_201070102114"/>
+            <field name="credit_note_account" ref="pc_201070102114"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3486,8 +3558,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.22')"/>
-            <field name="invoice_account" ref="pc_201070202113"/>
-            <field name="credit_note_account" ref="pc_201070202113"/>
+            <field name="invoice_account" ref="pc_201070102115"/>
+            <field name="credit_note_account" ref="pc_201070102115"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3500,8 +3572,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.35')"/>
-            <field name="invoice_account" ref="pc_201070202114"/>
-            <field name="credit_note_account" ref="pc_201070202114"/>
+            <field name="invoice_account" ref="pc_201070102116"/>
+            <field name="credit_note_account" ref="pc_201070102116"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3514,8 +3586,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.0')"/>
-            <field name="invoice_account" ref="pc_201070202115"/>
-            <field name="credit_note_account" ref="pc_201070202115"/>
+            <field name="invoice_account" ref="pc_201070102117"/>
+            <field name="credit_note_account" ref="pc_201070102117"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3528,8 +3600,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.22')"/>
-            <field name="invoice_account" ref="pc_201070202116"/>
-            <field name="credit_note_account" ref="pc_201070202116"/>
+            <field name="invoice_account" ref="pc_201070102118"/>
+            <field name="credit_note_account" ref="pc_201070102118"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3542,8 +3614,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.35')"/>
-            <field name="invoice_account" ref="pc_201070202117"/>
-            <field name="credit_note_account" ref="pc_201070202117"/>
+            <field name="invoice_account" ref="pc_201070102119"/>
+            <field name="credit_note_account" ref="pc_201070102119"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3556,8 +3628,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('0.0')"/>
-            <field name="invoice_account" ref="pc_201070202118"/>
-            <field name="credit_note_account" ref="pc_201070202118"/>
+            <field name="invoice_account" ref="pc_201070102120"/>
+            <field name="credit_note_account" ref="pc_201070102120"/>
             <field name="invoice_base_sign" eval="1"/>
             <field name="invoice_tax_sign" eval="1"/>
             <field name="credit_note_base_sign" eval="-1"/>
@@ -3570,8 +3642,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.1')"/>
-            <field name="invoice_account" ref="pc_201070202119"/>
-            <field name="credit_note_account" ref="pc_201070202119"/>
+            <field name="invoice_account" ref="pc_20107010301"/>
+            <field name="credit_note_account" ref="pc_20107010301"/>
             <field name="invoice_tax_code" ref="taxcode_1040301"/>
             <field name="credit_note_tax_code" ref="taxcode_1040301"/>
         </record>
@@ -3582,8 +3654,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.2')"/>
-            <field name="invoice_account" ref="pc_201070202120"/>
-            <field name="credit_note_account" ref="pc_201070202120"/>
+            <field name="invoice_account" ref="pc_20107010302"/>
+            <field name="credit_note_account" ref="pc_20107010302"/>
             <field name="invoice_tax_code" ref="taxcode_1040302"/>
             <field name="credit_note_tax_code" ref="taxcode_1040302"/>
         </record>
@@ -3594,8 +3666,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.3')"/>
-            <field name="invoice_account" ref="pc_201070202121"/>
-            <field name="credit_note_account" ref="pc_201070202121"/>
+            <field name="invoice_account" ref="pc_20107010303"/>
+            <field name="credit_note_account" ref="pc_20107010303"/>
             <field name="invoice_tax_code" ref="taxcode_1040303"/>
             <field name="credit_note_tax_code" ref="taxcode_1040303"/>
         </record>
@@ -3606,8 +3678,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-0.7')"/>
-            <field name="invoice_account" ref="pc_201070202122"/>
-            <field name="credit_note_account" ref="pc_201070202122"/>
+            <field name="invoice_account" ref="pc_20107010304"/>
+            <field name="credit_note_account" ref="pc_20107010304"/>
             <field name="invoice_tax_code" ref="taxcode_1040304"/>
             <field name="credit_note_tax_code" ref="taxcode_1040304"/>
         </record>
@@ -3618,8 +3690,8 @@ this repository contains the full copyright notices and license terms. -->
             <field name="group" ref="tax_group_purchase"/>
             <field name="type">percentage</field>
             <field name="rate" eval="Decimal('-1.0')"/>
-            <field name="invoice_account" ref="pc_201070202123"/>
-            <field name="credit_note_account" ref="pc_201070202123"/>
+            <field name="invoice_account" ref="pc_20107010305"/>
+            <field name="credit_note_account" ref="pc_20107010305"/>
             <field name="invoice_tax_code" ref="taxcode_1040305"/>
             <field name="credit_note_tax_code" ref="taxcode_1040305"/>
         </record>
