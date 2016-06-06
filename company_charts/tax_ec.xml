@@ -157,6 +157,36 @@ this repository contains the full copyright notices and license terms. -->
             <field name="parent" ref="taxcode_10401"/>
             <field name="account" ref="pc"/>
         </record>
+        <record model="account.tax.code.template" id="taxcode_1040122">
+            <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 14% - VALOR BRUTO</field>
+            <field name="parent" ref="taxcode_10401"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040123">
+            <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 14% - VALOR BRUTO</field>
+            <field name="parent" ref="taxcode_10401"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040124">
+            <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 14% - VALOR NETO</field>
+            <field name="parent" ref="taxcode_10401"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040125">
+            <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 14% - VALOR NETO</field>
+            <field name="parent" ref="taxcode_10401"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040126">
+            <field name="name">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 14%</field>
+            <field name="parent" ref="taxcode_10401"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040127">
+            <field name="name">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 14%</field>
+            <field name="parent" ref="taxcode_10401"/>
+            <field name="account" ref="pc"/>
+        </record>
         <record model="account.tax.code.template" id="taxcode_10402">
             <field name="name">RESUMEN DE ADQUISICIONES Y PAGOS DEL PERÍODO QUE DECLARA</field>
             <field name="parent" ref="taxcode_104"/>
@@ -338,6 +368,96 @@ this repository contains the full copyright notices and license terms. -->
         </record>
         <record model="account.tax.code.template" id="taxcode_1040230">
             <field name="name">IVA ADQUISICIONES 0%</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040231">
+            <field name="name">ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 14% (CON DERECHO A CRÉDITO TRIBUTARIO) - VALOR BRUTO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040232">
+            <field name="name">ADQUISICIONES LOCALES DE ACTIVOS FIJOS GRAVADOS TARIFA 14% (CON DERECHO A CRÉDITO TRIBUTARIO) - VALOR BRUTO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040233">
+            <field name="name">OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 14% (SIN DERECHO A CRÉDITO TRIBUTARIO) - VALOR BRUTO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040234">
+            <field name="name">IMPORTACIONES DE SERVICIOS GRAVADOS TARIFA 14% - VALOR BRUTO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040235">
+            <field name="name">IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 14% - VALOR BRUTO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040236">
+            <field name="name">IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 14% - VALOR BRUTO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040237">
+            <field name="name">ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 14% (CON DERECHO A CRÉDITO TRIBUTARIO) - VALOR NETO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040238">
+            <field name="name">ADQUISICIONES LOCALES DE ACTIVOS FIJOS GRAVADOS TARIFA 14% (CON DERECHO A CRÉDITO TRIBUTARIO) - VALOR NETO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040239">
+            <field name="name">OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 14% (SIN DERECHO A CRÉDITO TRIBUTARIO) - VALOR NETO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040240">
+            <field name="name">IMPORTACIONES DE SERVICIOS GRAVADOS TARIFA 14% - VALOR NETO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040241">
+            <field name="name">IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 14% - VALOR NETO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040242">
+            <field name="name">IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 14% - VALOR NETO</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040243">
+            <field name="name">IVA ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 14% (CON DERECHO A CRÉDITO TRIBUTARIO)</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040244">
+            <field name="name">IVA ADQUISICIONES LOCALES DE ACTIVOS FIJOS GRAVADOS TARIFA 14% (CON DERECHO A CRÉDITO TRIBUTARIO)</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040245">
+            <field name="name">IVA OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 14% (SIN DERECHO A CRÉDITO TRIBUTARIO)</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040246">
+            <field name="name">IVA IMPORTACIONES DE SERVICIOS GRAVADOS TARIFA 14%</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040247">
+            <field name="name">IVA IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 14%</field>
+            <field name="parent" ref="taxcode_10402"/>
+            <field name="account" ref="pc"/>
+        </record>
+        <record model="account.tax.code.template" id="taxcode_1040248">
+            <field name="name">IVA IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 14%</field>
             <field name="parent" ref="taxcode_10402"/>
             <field name="account" ref="pc"/>
         </record>
@@ -1331,6 +1451,42 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
+        <record model="account.tax.template" id="tax_1040110">
+            <field name="name">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 14%</field>
+            <field name="description">IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 14%</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_sale"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('0.14')"/>
+            <field name="invoice_account" ref="pc_20107010110"/>
+            <field name="credit_note_account" ref="pc_20107010110"/>
+            <field name="invoice_base_code" ref="taxcode_1040122"/>
+            <field name="invoice_tax_code" ref="taxcode_1040126"/>
+            <field name="credit_note_base_code" ref="taxcode_1040122"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040126"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_1040111">
+            <field name="name">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 14%</field>
+            <field name="description">IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 14%</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_sale"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('0.14')"/>
+            <field name="invoice_account" ref="pc_20107010111"/>
+            <field name="credit_note_account" ref="pc_20107010111"/>
+            <field name="invoice_base_code" ref="taxcode_1040123"/>
+            <field name="invoice_tax_code" ref="taxcode_1040127"/>
+            <field name="credit_note_base_code" ref="taxcode_1040123"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040127"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
         <record model="account.tax.template" id="tax_1040201">
             <field name="name">IVA ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO)</field>
             <field name="description">IVA ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO)</field>
@@ -1530,6 +1686,114 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
         <record model="account.tax.template" id="tax_1040212">
+            <field name="name">IVA ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 14% (CON DERECHO A CRÉDITO TRIBUTARIO)</field>
+            <field name="description">IVA ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 14% (CON DERECHO A CRÉDITO TRIBUTARIO)</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_purchase"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('0.14')"/>
+            <field name="invoice_account" ref="pc_10108010112"/>
+            <field name="credit_note_account" ref="pc_10108010112"/>
+            <field name="invoice_base_code" ref="taxcode_1040231"/>
+            <field name="invoice_tax_code" ref="taxcode_1040243"/>
+            <field name="credit_note_base_code" ref="taxcode_1040231"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040243"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_1040213">
+            <field name="name">IVA ADQUISICIONES LOCALES DE ACTIVOS FIJOS GRAVADOS TARIFA 14% (CON DERECHO A CRÉDITO TRIBUTARIO)</field>
+            <field name="description">IVA ADQUISICIONES LOCALES DE ACTIVOS FIJOS GRAVADOS TARIFA 14% (CON DERECHO A CRÉDITO TRIBUTARIO)</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_purchase"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('0.14')"/>
+            <field name="invoice_account" ref="pc_10108010113"/>
+            <field name="credit_note_account" ref="pc_10108010113"/>
+            <field name="invoice_base_code" ref="taxcode_1040232"/>
+            <field name="invoice_tax_code" ref="taxcode_1040244"/>
+            <field name="credit_note_base_code" ref="taxcode_1040232"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040244"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_1040214">
+            <field name="name">IVA OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 14% (SIN DERECHO A CRÉDITO TRIBUTARIO)</field>
+            <field name="description">IVA OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 14% (SIN DERECHO A CRÉDITO TRIBUTARIO)</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_purchase"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('0.14')"/>
+            <field name="invoice_account" ref="pc_10108010114"/>
+            <field name="credit_note_account" ref="pc_10108010114"/>
+            <field name="invoice_base_code" ref="taxcode_1040233"/>
+            <field name="invoice_tax_code" ref="taxcode_1040245"/>
+            <field name="credit_note_base_code" ref="taxcode_1040233"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040245"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_1040215">
+            <field name="name">IVA IMPORTACIONES DE SERVICIOS GRAVADOS TARIFA 14%</field>
+            <field name="description">IVA IMPORTACIONES DE SERVICIOS GRAVADOS TARIFA 14%</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_purchase"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('0.14')"/>
+            <field name="invoice_account" ref="pc_10108010115"/>
+            <field name="credit_note_account" ref="pc_10108010115"/>
+            <field name="invoice_base_code" ref="taxcode_1040234"/>
+            <field name="invoice_tax_code" ref="taxcode_1040246"/>
+            <field name="credit_note_base_code" ref="taxcode_1040234"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040246"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_1040216">
+            <field name="name">IVA IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 14%</field>
+            <field name="description">IVA IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 14%</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_purchase"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('0.14')"/>
+            <field name="invoice_account" ref="pc_10108010116"/>
+            <field name="credit_note_account" ref="pc_10108010116"/>
+            <field name="invoice_base_code" ref="taxcode_1040235"/>
+            <field name="invoice_tax_code" ref="taxcode_1040247"/>
+            <field name="credit_note_base_code" ref="taxcode_1040235"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040247"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_1040217">
+            <field name="name">IVA IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 14%</field>
+            <field name="description">IVA IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 14%</field>
+            <field name="account" ref="pc"/>
+            <field name="group" ref="tax_group_purchase"/>
+            <field name="type">percentage</field>
+            <field name="rate" eval="Decimal('0.14')"/>
+            <field name="invoice_account" ref="pc_10108010117"/>
+            <field name="credit_note_account" ref="pc_10108010117"/>
+            <field name="invoice_base_code" ref="taxcode_1040236"/>
+            <field name="invoice_tax_code" ref="taxcode_1040248"/>
+            <field name="credit_note_base_code" ref="taxcode_1040236"/>
+            <field name="credit_note_tax_code" ref="taxcode_1040248"/>
+            <field name="invoice_base_sign" eval="1"/>
+            <field name="invoice_tax_sign" eval="1"/>
+            <field name="credit_note_base_sign" eval="-1"/>
+            <field name="credit_note_tax_sign" eval="-1"/>
+        </record>
+        <record model="account.tax.template" id="tax_1040218">
             <field name="name">ANTICIPO RETENCION IVA 10%</field>
             <field name="description">ANTICIPO RETENCION IVA 10%</field>
             <field name="account" ref="pc"/>
@@ -1547,7 +1811,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax_1040213">
+        <record model="account.tax.template" id="tax_1040219">
             <field name="name">ANTICIPO RETENCION IVA 20%</field>
             <field name="description">ANTICIPO RETENCION IVA 20%</field>
             <field name="account" ref="pc"/>
@@ -1565,7 +1829,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax_1040214">
+        <record model="account.tax.template" id="tax_1040220">
             <field name="name">ANTICIPO RETENCION IVA 30%</field>
             <field name="description">ANTICIPO RETENCION IVA 30%</field>
             <field name="account" ref="pc"/>
@@ -1583,7 +1847,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax_1040215">
+        <record model="account.tax.template" id="tax_1040221">
             <field name="name">ANTICIPO RETENCION IVA 70%</field>
             <field name="description">ANTICIPO RETENCION IVA 70%</field>
             <field name="account" ref="pc"/>
@@ -1601,7 +1865,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_base_sign" eval="-1"/>
             <field name="credit_note_tax_sign" eval="-1"/>
         </record>
-        <record model="account.tax.template" id="tax_1040216">
+        <record model="account.tax.template" id="tax_1040222">
             <field name="name">ANTICIPO RETENCION IVA 100%</field>
             <field name="description">ANTICIPO RETENCION IVA 100%</field>
             <field name="account" ref="pc"/>
