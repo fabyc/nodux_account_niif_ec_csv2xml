@@ -4951,7 +4951,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520114">
-            <field name="name">SEGUROS Y REASEGUROS (primas y cesiones)</field>
+            <field name="name">SEGUROS Y REASEGUROS (primas y cesiones) - VENTAS</field>
             <field name="parent" ref="pc_5201"/>
             <field name="code">520114</field>
             <field name="reconcile" eval="False"/>
@@ -5411,7 +5411,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520214">
-            <field name="name">SEGUROS Y REASEGUROS (primas y cesiones)</field>
+            <field name="name">SEGUROS Y REASEGUROS (primas y cesiones) - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_5202"/>
             <field name="code">520214</field>
             <field name="reconcile" eval="False"/>
