@@ -2731,7 +2731,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_1020110">
-            <field name="name">OTROS PROPIEDADES, PLANTA Y EQUIPO</field>
+            <field name="name">OTRAS PROPIEDADES, PLANTA Y EQUIPO</field>
             <field name="parent" ref="pc_10201"/>
             <field name="code">1020110</field>
             <field name="reconcile" eval="True"/>
@@ -4583,7 +4583,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_4302">
-            <field name="name">INTERESES FINANCIEROS</field>
+            <field name="name">INTERESES FINANCIEROS - INGRESOS</field>
             <field name="parent" ref="pc_43"/>
             <field name="code">4302</field>
             <field name="reconcile" eval="False"/>
@@ -4921,7 +4921,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520111">
-            <field name="name">PROMOCIÓN Y PUBLICIDAD</field>
+            <field name="name">PROMOCIÓN Y PUBLICIDAD - VENTAS</field>
             <field name="parent" ref="pc_5201"/>
             <field name="code">520111</field>
             <field name="reconcile" eval="False"/>
@@ -4931,7 +4931,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520112">
-            <field name="name">COMBUSTIBLES</field>
+            <field name="name">COMBUSTIBLES - VENTAS</field>
             <field name="parent" ref="pc_5201"/>
             <field name="code">520112</field>
             <field name="reconcile" eval="False"/>
@@ -4941,7 +4941,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520113">
-            <field name="name">LUBRICANTES</field>
+            <field name="name">LUBRICANTES - VENTAS</field>
             <field name="parent" ref="pc_5201"/>
             <field name="code">520113</field>
             <field name="reconcile" eval="False"/>
@@ -4961,7 +4961,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520115">
-            <field name="name">TRANSPORTE</field>
+            <field name="name">TRANSPORTE - VENTAS</field>
             <field name="parent" ref="pc_5201"/>
             <field name="code">520115</field>
             <field name="reconcile" eval="False"/>
@@ -4971,7 +4971,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520116">
-            <field name="name">GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes)</field>
+            <field name="name">GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes) - VENTAS</field>
             <field name="parent" ref="pc_5201"/>
             <field name="code">520116</field>
             <field name="reconcile" eval="False"/>
@@ -4981,7 +4981,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520117">
-            <field name="name">GASTOS DE VIAJE</field>
+            <field name="name">GASTOS DE VIAJE - VENTAS</field>
             <field name="parent" ref="pc_5201"/>
             <field name="code">520117</field>
             <field name="reconcile" eval="False"/>
@@ -4997,7 +4997,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="kind">view</field>
         </record>
         <record model="account.account.template" id="pc_52011801">
-            <field name="name">AGUA</field>
+            <field name="name">AGUA – VENTAS</field>
             <field name="parent" ref="pc_520118"/>
             <field name="code">52011801</field>
             <field name="reconcile" eval="False"/>
@@ -5007,7 +5007,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_52011802">
-            <field name="name">ENERGÍA ELÉCTRICA</field>
+            <field name="name">ENERGÍA ELÉCTRICA - VENTAS</field>
             <field name="parent" ref="pc_520118"/>
             <field name="code">52011802</field>
             <field name="reconcile" eval="False"/>
@@ -5023,7 +5023,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="kind">view</field>
         </record>
         <record model="account.account.template" id="pc_5201180301">
-            <field name="name">TELÉFONO</field>
+            <field name="name">TELÉFONO - VENTAS</field>
             <field name="parent" ref="pc_52011803"/>
             <field name="code">5201180301</field>
             <field name="reconcile" eval="False"/>
@@ -5033,7 +5033,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_5201180302">
-            <field name="name">PLAN CELULAR</field>
+            <field name="name">PLAN CELULAR - VENTAS</field>
             <field name="parent" ref="pc_52011803"/>
             <field name="code">5201180302</field>
             <field name="reconcile" eval="False"/>
@@ -5043,7 +5043,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_5201180303">
-            <field name="name">INTERNET</field>
+            <field name="name">INTERNET - VENTAS</field>
             <field name="parent" ref="pc_52011803"/>
             <field name="code">5201180303</field>
             <field name="reconcile" eval="False"/>
@@ -5053,7 +5053,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_5201180304">
-            <field name="name">PLAN DE TRANSMISIÓN DE DATOS</field>
+            <field name="name">PLAN DE TRANSMISIÓN DE DATOS - VENTAS</field>
             <field name="parent" ref="pc_52011803"/>
             <field name="code">5201180304</field>
             <field name="reconcile" eval="False"/>
@@ -5089,7 +5089,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="kind">view</field>
         </record>
         <record model="account.account.template" id="pc_52012101">
-            <field name="name">PROPIEDADES, PLANTA Y EQUIPO</field>
+            <field name="name">PROPIEDADES, PLANTA Y EQUIPO - VENTAS</field>
             <field name="parent" ref="pc_520121"/>
             <field name="code">52012101</field>
             <field name="reconcile" eval="False"/>
@@ -5099,7 +5099,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_52012102">
-            <field name="name">PROPIEDADES DE INVERSIÓN</field>
+            <field name="name">PROPIEDADES DE INVERSIÓN - VENTAS</field>
             <field name="parent" ref="pc_520121"/>
             <field name="code">52012102</field>
             <field name="reconcile" eval="False"/>
@@ -5115,7 +5115,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="kind">view</field>
         </record>
         <record model="account.account.template" id="pc_52012201">
-            <field name="name">INTANGIBLES</field>
+            <field name="name">INTANGIBLES - VENTAS</field>
             <field name="parent" ref="pc_520122"/>
             <field name="code">52012201</field>
             <field name="reconcile" eval="False"/>
@@ -5125,7 +5125,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_52012202">
-            <field name="name">OTROS ACTIVOS</field>
+            <field name="name">OTROS ACTIVOS - VENTAS</field>
             <field name="parent" ref="pc_520122"/>
             <field name="code">52012202</field>
             <field name="reconcile" eval="False"/>
@@ -5177,7 +5177,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_52020103">
-            <field name="name">COMISIONES</field>
+            <field name="name">COMISIONES - REMUNERACIONES</field>
             <field name="parent" ref="pc_520201"/>
             <field name="code">52020103</field>
             <field name="reconcile" eval="False"/>
@@ -5371,7 +5371,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520210">
-            <field name="name">COMISIONES</field>
+            <field name="name">COMISIONES - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_5202"/>
             <field name="code">520210</field>
             <field name="reconcile" eval="False"/>
@@ -5381,7 +5381,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520211">
-            <field name="name">PROMOCIÓN Y PUBLICIDAD</field>
+            <field name="name">PROMOCIÓN Y PUBLICIDAD - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_5202"/>
             <field name="code">520211</field>
             <field name="reconcile" eval="False"/>
@@ -5391,7 +5391,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520212">
-            <field name="name">COMBUSTIBLES</field>
+            <field name="name">COMBUSTIBLES - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_5202"/>
             <field name="code">520212</field>
             <field name="reconcile" eval="False"/>
@@ -5401,7 +5401,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520213">
-            <field name="name">LUBRICANTES</field>
+            <field name="name">LUBRICANTES - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_5202"/>
             <field name="code">520213</field>
             <field name="reconcile" eval="False"/>
@@ -5421,7 +5421,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520215">
-            <field name="name">TRANSPORTE</field>
+            <field name="name">TRANSPORTE - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_5202"/>
             <field name="code">520215</field>
             <field name="reconcile" eval="False"/>
@@ -5431,7 +5431,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520216">
-            <field name="name">GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes)</field>
+            <field name="name">GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes) - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_5202"/>
             <field name="code">520216</field>
             <field name="reconcile" eval="False"/>
@@ -5441,7 +5441,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520217">
-            <field name="name">GASTOS DE VIAJE</field>
+            <field name="name">GASTOS DE VIAJE - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_5202"/>
             <field name="code">520217</field>
             <field name="reconcile" eval="False"/>
@@ -5457,7 +5457,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="kind">view</field>
         </record>
         <record model="account.account.template" id="pc_52021801">
-            <field name="name">AGUA</field>
+            <field name="name">AGUA - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_520218"/>
             <field name="code">52021801</field>
             <field name="reconcile" eval="False"/>
@@ -5467,7 +5467,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_52021802">
-            <field name="name">ENERGÍA ELÉCTRICA</field>
+            <field name="name">ENERGÍA ELÉCTRICA - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_520218"/>
             <field name="code">52021802</field>
             <field name="reconcile" eval="False"/>
@@ -5483,7 +5483,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="kind">view</field>
         </record>
         <record model="account.account.template" id="pc_5202180301">
-            <field name="name">TELÉFONO</field>
+            <field name="name">TELÉFONO - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_52021803"/>
             <field name="code">5202180301</field>
             <field name="reconcile" eval="False"/>
@@ -5493,7 +5493,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_5202180302">
-            <field name="name">PLAN CELULAR</field>
+            <field name="name">PLAN CELULAR - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_52021803"/>
             <field name="code">5202180302</field>
             <field name="reconcile" eval="False"/>
@@ -5503,7 +5503,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_5202180303">
-            <field name="name">INTERNET</field>
+            <field name="name">INTERNET - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_52021803"/>
             <field name="code">5202180303</field>
             <field name="reconcile" eval="False"/>
@@ -5513,7 +5513,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_5202180304">
-            <field name="name">PLAN DE TRANSMISIÓN DE DATOS</field>
+            <field name="name">PLAN DE TRANSMISIÓN DE DATOS - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_52021803"/>
             <field name="code">5202180304</field>
             <field name="reconcile" eval="False"/>
@@ -5725,7 +5725,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="kind">view</field>
         </record>
         <record model="account.account.template" id="pc_52022101">
-            <field name="name">PROPIEDADES, PLANTA Y EQUIPO</field>
+            <field name="name">PROPIEDADES, PLANTA Y EQUIPO - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_520221"/>
             <field name="code">52022101</field>
             <field name="reconcile" eval="False"/>
@@ -5735,7 +5735,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_52022102">
-            <field name="name">PROPIEDADES DE INVERSIÓN</field>
+            <field name="name">PROPIEDADES DE INVERSIÓN - ADMINISTRATIVO</field>
             <field name="parent" ref="pc_520221"/>
             <field name="code">52022102</field>
             <field name="reconcile" eval="False"/>
@@ -5751,7 +5751,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="kind">view</field>
         </record>
         <record model="account.account.template" id="pc_52022201">
-            <field name="name">INTANGIBLES</field>
+            <field name="name">INTANGIBLES – ADMINISTRATIVO</field>
             <field name="parent" ref="pc_520222"/>
             <field name="code">52022201</field>
             <field name="reconcile" eval="False"/>
@@ -5761,7 +5761,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_52022202">
-            <field name="name">OTROS ACTIVOS</field>
+            <field name="name">OTROS ACTIVOS – ADMINISTRATIVO</field>
             <field name="parent" ref="pc_520222"/>
             <field name="code">52022202</field>
             <field name="reconcile" eval="False"/>
@@ -5919,7 +5919,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="kind">view</field>
         </record>
         <record model="account.account.template" id="pc_520301">
-            <field name="name">INTERESES</field>
+            <field name="name">INTERESES FINANCIEROS - GASTOS</field>
             <field name="parent" ref="pc_5203"/>
             <field name="code">520301</field>
             <field name="reconcile" eval="False"/>
@@ -5929,7 +5929,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="party_required" eval="False"/>
         </record>
         <record model="account.account.template" id="pc_520302">
-            <field name="name">COMISIONES</field>
+            <field name="name">COMISIONES BANCARIAS</field>
             <field name="parent" ref="pc_5203"/>
             <field name="code">520302</field>
             <field name="reconcile" eval="False"/>
