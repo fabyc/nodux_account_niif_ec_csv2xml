@@ -4678,6 +4678,16 @@ this repository contains the full copyright notices and license terms. -->
             <field name="deferral" eval="False"/>
             <field name="party_required" eval="False"/>
         </record>
+        <record model="account.account.template" id="pc_430507">
+            <field name="name">VENTA DE ACTIVOS</field>
+            <field name="parent" ref="pc_4305"/>
+            <field name="code">430507</field>
+            <field name="reconcile" eval="False"/>
+            <field name="kind">revenue</field>
+            <field name="type" ref="ec_eri_4305"/>
+            <field name="deferral" eval="False"/>
+            <field name="party_required" eval="False"/>
+        </record>
         <record model="account.account.template" id="pc_52">
             <field name="name">GASTOS</field>
             <field name="parent" ref="pc_5"/>
