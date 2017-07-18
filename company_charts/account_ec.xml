@@ -2025,6 +2025,16 @@ this repository contains the full copyright notices and license terms. -->
             <field name="sequence" eval="900202"/>
             <field name="display_balance">credit-debit</field>
         </record>
+        <record model="account.account.template" id="id">
+            <field name="name">nombre</field>
+            <field name="parent" ref="padre"/>
+            <field name="code">código</field>
+            <field name="reconcile" eval="conciliar"/>
+            <field name="kind">clase</field>
+            <field name="type" ref="tipo"/>
+            <field name="deferral" eval="cierre"/>
+            <field name="party_required" requerido" eval="tercero/>
+        </record>
         <record model="account.account.template" id="pc">
             <field name="name">PLAN DE CUENTAS NIIF ECUADOR</field>
             <field name="kind">view</field>
@@ -2714,6 +2724,32 @@ this repository contains the full copyright notices and license terms. -->
             <field name="name">EQUIPO DE COMPUTACIÓN</field>
             <field name="parent" ref="pc_10201"/>
             <field name="code">1020108</field>
+            <field name="kind">view</field>
+        </record>
+        <record model="account.account.template" id="pc_102010801">
+            <field name="name">EQUIPO DE COMPUTACIÓN</field>
+            <field name="parent" ref="pc_1020108"/>
+            <field name="code">102010801</field>
+            <field name="reconcile" eval="True"/>
+            <field name="kind">other</field>
+            <field name="type" ref="ec_esf_1020108"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="False"/>
+        </record>
+        <record model="account.account.template" id="pc_102010802">
+            <field name="name">PROGRAMA DE COMPUTACIÓN Y SOFTWARE</field>
+            <field name="parent" ref="pc_1020108"/>
+            <field name="code">102010802</field>
+            <field name="reconcile" eval="True"/>
+            <field name="kind">other</field>
+            <field name="type" ref="ec_esf_1020108"/>
+            <field name="deferral" eval="True"/>
+            <field name="party_required" eval="False"/>
+        </record>
+        <record model="account.account.template" id="pc_102010803">
+            <field name="name">(-) DEPRECIACION DE EQUIPO DE COMPUTACION</field>
+            <field name="parent" ref="pc_1020108"/>
+            <field name="code">102010803</field>
             <field name="reconcile" eval="True"/>
             <field name="kind">other</field>
             <field name="type" ref="ec_esf_1020108"/>
